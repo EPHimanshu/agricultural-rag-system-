@@ -8,8 +8,12 @@ from llm_client import generate_grounded_answer, DEFAULT_MODEL
 st.set_page_config(page_title="🌾 Agricultural Knowledge Retrieval System with RAG", layout="wide")
 
 RUN_ID = "20260209_185402"
-COLLECTION_NAME = f"agrigenius_{RUN_ID}"
 
+# Use secret if provided
+COLLECTION_NAME = st.secrets.get(
+    "COLLECTION_NAME",
+    f"agrigenius_{RUN_ID}"
+)
 # Always resolve path relative to this file
 BASE_DIR = Path(__file__).resolve().parent
 CHROMA_PATH = str(BASE_DIR / "chroma_db")
