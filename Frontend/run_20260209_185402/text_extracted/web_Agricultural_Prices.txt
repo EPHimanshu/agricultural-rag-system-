@@ -1,0 +1,73 @@
+SECTION: Agricultural Prices
+URL: https://nsc.mospi.gov.in/410-agricultural-prices
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.10 AGRICULTURAL PRICES
+Current Status
+4.10.1 The Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA) is responsible for the collection, compilation and dissemination of the price data of agricultural commodities. The price data are collected in terms of (a) weekly and daily wholesales prices, (b) retail prices of essential commodities, and (c) farm harvest prices.
+4.10.2 Weekly wholesale prices cover 140 agricultural commodities from 620 markets. The data are collected by price reporters appointed by the State Governments or Agricultural Marketing Committees and forwarded to the State Directorates of Economics and Statistics (DESs). Daily wholesale prices cover 12 commodities (rice, paddy, wheat, jowar, bajra, ragi, maize, barley, gram, sugar, gur and khandsari) from 617 market centres. On receipt of the prices from various State agencies, the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA) forwards the same to the Economic Adviser, Ministry of Commerce and Industry for monitoring wholesale prices. Wholesale prices of certain important cereals, gram and sugar are also sent to the Cabinet Secretary on alternate days for direct monitoring.
+4.10.3 Retail prices of essential commodities are collected on a weekly basis from 83 market centres in respect of 88 commodities (49 food and 39 non-food) by the staff of the State Market Intelligence Units, State Directorates of Economics and Statistics (DESs) and State Department of Food and Civil Supplies. Flow of data from these agencies is not considered satisfactory.
+4.10.4 Farm Harvest Prices are collected by the field staff of the State revenue departments for 31 commodities at the end of each crop season and published by the DESMOA. It brings out a periodical publication entitled, Farm Harvest Prices of Principal Crops in India.
+Deficiencies
+4.10.5 Wholesale prices data are received in the DESMOA mostly through postal mail, which entails delay. Data on retail prices of the essential commodities are received with a time lag of about five to six weeks and the response rate is only of the order of 60 per cent. Supply of data through post is stated to be the reason for delay. The State Governments generally use part time reporters who are not fully conversant with the connotations of the different terms used in price data collection and they do not pay adequate attention to the reporting work. The main deficiency in the collection of price data arises due to large non-response. There is no coordination among the State agencies concerned nor an adequate supervisory check over price collection.
+Conclusions and Recommendations
+4.10.6 Wholesale prices are primarily used to monitor the weekly price movements. It is, therefore, essential to have quality data on prices by ensuring representative price collection centres and commodity-wise quotations of prices. For this purpose, a well-documented manual of instructions on collection of prices is required. The price collectors should be given thorough training on concepts, definitions and the methods of data collection. The training courses should be repeated periodically.
+4.10.7 A mechanism to ensure timely data flow is an immediate need. For this, the latest tools of communication technology like e-mail should be availed of. Further, the system should ensure simultaneous data flow from lower levels to the State as well as to the Centre.
+4.10.8 The State agencies at the district level and below should follow up cases of chronic non-response. The quality of data should be determined on the basis of systematic analysis of the price data both by the Centre and the States. Workshops and training courses should be an integral part of quality improvement.
+4.10.9 The number of essential commodities should be reduced to an absolute minimum, especially the non-food crops, in consultation with Ministry of Consumer Affairs and Cabinet Committee on Prices. The centres of price collection should, as far as possible, be the same for the essential commodities as for those of wholesale prices.
+4.10.10 The Commission recommends that:
+The Ministry of Agriculture should prepare a well-documented manual of instructions on collection of wholesale prices of agricultural commodities.
+The agricultural price collectors should be given thorough training in the concepts, definitions and the methods of data collection, and the training courses should be repeated periodically.
+Workshops and training courses should be made an integral part of quality improvement. The quality of data should be determined on the basis of systematic analysis of the price data of agricultural commodities both by the Centre and the States.
+Latest tools of communication technology like e-mail should be availed of to ensure timely data flow of agricultural prices.
+A system should be developed to secure a simultaneous data flow of agricultural prices from lower levels to the State as well as the Centre.
+The State agencies at the district level and below should follow up cases of chronic non-response relating to collection of data on agricultural prices.
+The number of essential commodities for which agricultural prices are collected should be reduced to an absolute minimum, especially the non-food crops, in consultation with Ministry of Consumer Affairs and Cabinet Committee on Prices.
+The centres of agricultural price collection should, as far as possible, be the same for the essential commodities as those for wholesale prices.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

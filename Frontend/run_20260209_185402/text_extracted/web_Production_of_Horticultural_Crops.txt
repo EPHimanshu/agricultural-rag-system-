@@ -1,0 +1,64 @@
+SECTION: Production of Horticultural Crops
+URL: https://nsc.mospi.gov.in/45-production-horticultural-crops
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.5 Production of Horticultural Crops
+Current Status
+4.5.1 There are two main sources that generate statistics of production of horticultural crops. The first is the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), which operates a Centrally sponsored scheme “Crop Estimation Survey on Fruits and Vegetables” in 11 States covering 7 fruit and 7 vegetable and spice crops for estimating area and production. The fruit crops covered are mango, banana, apple, citrus, grapes, pineapple and guava. The vegetable and spice crops are potato, onion, tomato, cabbage, cauliflower, ginger and turmeric. The survey, which is still in a “pilot” stage follows a stratified three-stage random sampling design in the case of fruit crops, with village, orchard and fruit bearing tree as the sampling units at the successive stages. The sample size is usually 150 to 200 sample villages in each major fruit-growing district, five orchards per sample village and four fruit bearing trees per orchard. The number and weight of fruits gathered from the sampled trees is observed and recorded, which form the basis for yield estimation. The survey approach in the case of vegetable crops is somewhat more complex due to special features of cultivation of these crops especially the short duration of the crop and the number of pickings required to record the harvested produce. The results of the DESMOA survey are published in its “Report and Database of Pilot Scheme on Major Fruits and Vegetables”.
+4.5.2 The second source of horticultural statistics is the National Horticultural Board (NHB), which compiles and publishes estimates of area, production and prices of all important fruit and vegetable crops based on reports furnished by the State Directorates of Horticulture and Agriculture. The methodology followed by NHB for estimating area and production has not been clearly spelt out. These estimates are apparently based on the informed assessment of local level officials dealing with horticulture and the reports of market arrivals in major wholesale fruit and vegetable markets.
+Deficiencies
+4.5.3 The production estimates of fruits and vegetables available from the DESMOA pilot survey are based on sound technical methodology. However, the survey procedures are complex, time consuming and rather difficult to implement in practice. Further, the survey is limited to 11 States and its extension to the remaining States will take a long time due to the fact that many of them do not possess the necessary staff resources to carry out the fieldwork. Adoption of this methodology on a nation-wide scale is a remote possibility.
+4.5.4 The estimates furnished by the NHB relate to the entire country but they are of doubtful reliability being essentially based on subjective reports received from the ground-level staff. There is, in fact, considerable divergence between the NHB and the DESMOA estimates for the States and the crops covered (see Annexe 4.2).
+4.5.5 Neither NHB nor DESMOA provide estimates of production of crops such as mushroom, herbs and floriculture that are of emerging commercial importance.
+Conclusions and Recommendations
+4.5.6 The methodology used in the DESMOA survey for estimation of production is complex, time consuming and not cost-effective. It is observed that the field staff does not always follow the procedures laid down for collection of data. It is obvious that an alternative and more feasible methodology needs to be developed for estimating production of horticultural crops. Such an approach may consider the possibility of using the flow of data from sources concerned with horticultural crops such as wholesale markets, growers associations, fruit and vegetable processing plants, export trade, etc. in order to develop a suitable model for estimation. Special studies need to be carried out in this connection, which may be entrusted to a team comprising representatives of the Indian Agricultural Statistics Research Institute (IASRI), DESMOA, NSSO (FOD) and one or two major States growing horticultural crops.
+4.5.7 The Commission recommends that:
+The methodology adopted in the pilot scheme of “Crop Estimation Survey on Fruits and Vegetables” should be reviewed and an alternative methodology for estimating the production of horticultural crops should be developed taking into account information flowing from all sources including market arrivals, exports and growers associations. Special studies required to establish the feasibility of such a methodology should be taken up by a team comprising representatives from Indian Agricultural Statistics Research Institute (IASRI), Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), Field Operations Division of National Sample Survey Organisation (NSSO (FOD)) and from one or two major States growing horticultural crops. The alternative methodology should be tried out on a pilot basis before actually implementing it on a large scale.
+A suitable methodology for estimating the production of crops such as mushroom, herbs and floriculture needs to be developed and this should be entrusted to the expert team comprising representatives from Indian Agricultural Statistics Research Institute (IASRI), Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), Field Operations Division of National Sample Survey Organisation (NSSO (FOD)) and from one or two major States growing these crops.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

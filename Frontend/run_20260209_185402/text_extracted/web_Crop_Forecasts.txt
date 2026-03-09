@@ -1,0 +1,67 @@
+SECTION: Crop Forecasts
+URL: https://nsc.mospi.gov.in/44-crop-forecasts
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.4 Crop Forecasts
+Current Status
+4.4.1 Final estimates of crop production based on area through complete enumeration and yield rate through crop-cutting experiments become available much after the crop is harvested. However, the Government needs advance estimates of production for various decisions relating to pricing, distribution, export and import, etc. The Directorate of Economics & Statistics, Ministry of Agriculture (DESMOA) releases advance estimates of crop area and production through periodical forecasts in respect of principal food and non-food crops (food grains, oil seeds, sugarcane, fibres, etc.), which account for nearly 87 per cent of agricultural output. Four forecasts are issued, the first in the middle of September, the second in January, the third towards the end of March and the fourth by the end of May.
+4.4.2 The first forecast relating to the kharif crops is mostly based on reports prepared by the States mainly guided by the visual observation of field officials. The second forecast covering both the kharif and rabi crops takes into account additional information obtained from various sources including agricultural inputs, incidence of pests and diseases, and weekly reports of State departments of agriculture regarding area coverage, conditions of standing crops, etc. Results of Remote Sensing data are also considered at this stage. In the third forecast, the earlier advance estimates of both the kharif and rabi seasons are firmed up, again taking into account information received from sources such as Market Intelligence Units, Meteorological Department and the Crop Weather Watch Group (CWWG). The fourth forecast is based on firm figures supplied by State Agricultural Statistics Authorities (SASAs) who are by then in a position to obtain fairly dependable estimates of yield rates through GCES. In addition to the four forecasts, the DESMOA issues the “Final Estimates” of crop area and production in December. As a few States continue to revise their data on delayed receipt of information, the all-India crop statistics are brought out as “Fully Revised” in the next crop year in the following December.
+4.4.3 Recently, the Ministry of Agriculture has set up a National Crop Forecasting Centre (NCFC) with the object of examining the existing mechanism of building forecasts of principal crops and developing more objective techniques. The NCFC takes into account information on weather conditions, supply of agricultural inputs, pests, diseases and related aspects including the proceedings of CWWG in the formulation of scientific and objective forecasting methods to replace the present system. The work of the NCFC is still at a preliminary stage and it needs more statistical support to be able to develop appropriate models of forecasting.
+Deficiencies
+4.4.4 The present system of crop forecasts being based mostly on subjective appraisal at various levels does not reflect the ground situation correctly. This is specially the case with regard to the preliminary forecasts, which have to be fairly reliable for taking several policy decisions. There is need for more objective forecasting based on timely and detailed information on crop condition, meteorological parameters, water availability, crop damage, etc. The NCFC is still not in a position to develop a scientific procedure of forecasting using multi-dimensional models and assimilating the information received from various sources. The DESMOA is handicapped due to non-receipt of timely information from the States and it often has to prepare such forecasts based on incomplete data.
+4.4.5 Frequent changes in the production figures especially of food grains between one forecast and another, and the “final” and “fully revised” estimates cause confusion and doubt among the users. While releasing these figures, the DESMOA may indicate the reasons for the change.
+Conclusions and Recommendations
+4.4.6 The system of forecasting crop production in the country by the Ministry of Agriculture needs to be replaced as soon as possible by an objective method using appropriate statistical techniques. The recent establishment of the NCFC, which has been assigned the responsibility of streamlining and improving the quality of forecasting, should go a long way in accomplishing this objective. However, it needs additional professional support, comprising statisticians and multi-disciplinary team of experts to devise scientific techniques of crop forecasting.
+4.4.7 Remote Sensing technology can also provide a satisfactory means of developing reliable estimates of crop area and condition of the crop at various stages of growth for forecast purposes. The Space Application Centre (SAC) is already at an advanced stage of experimenting with the approach of Remote Sensing to estimate the area under principal crops through the scheme known as “Forecasting Agricultural output using Space, Agro-meteorology and Land based observations” (FASAL). Incidentally, this will form an important input in the forecasting methodology to be developed by NCFC. The land-based observations should be used to measure quantitative changes in crop growth besides discriminating one crop from another.
+4.4.8 The Commission, therefore, recommends that:
+The Ministry of Agriculture and the National Crop Forecasting Centre (NCFC) should soon put in place an objective method of forecasting the production of crops.
+The National Crop Forecasting Centre (NCFC) should be adequately strengthened with professional statisticians and experts in other related fields.
+The programme of Forecasting Agricultural output using Space, Agro-meteorology and Land based observations (FASAL), which is experimenting the approach of Remote Sensing to estimate the area under principal crops should be actively pursued.
+The States should be assisted by the Centre in adopting the objective techniques to be developed by the National Crop Forecasting Centre (NCFC).
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

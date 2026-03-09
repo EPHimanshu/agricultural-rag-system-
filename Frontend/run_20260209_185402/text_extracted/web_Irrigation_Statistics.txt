@@ -1,0 +1,74 @@
+SECTION: Irrigation Statistics
+URL: https://nsc.mospi.gov.in/48-irrigation-statistics
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.8 Irrigation Statistics
+Current Status
+4.8.1 Irrigation statistics mainly relate to data on area irrigated by different sources and under different crops. The principal sources of irrigation statistics are the crop statistics compiled by the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), and the publications of the Ministry of Water Resources. Besides these, some data on irrigated area are available from the administrative reports of State Government departments and the Agricultural Census. Rainfall and weather data are available from the India Meteorological Department (IMD).
+4.8.2 In the temporarily settled States, irrigation statistics are compiled from the village girdawari, whereas the same are estimated on the basis of sample surveys in respect of the permanently settled States of Kerala, Orissa and West Bengal. These statistics relate to net or gross irrigated area by sources (canals, tanks, tube well, etc.) and also area under each crop. The data are collated and published by the DESMOA with a time lag of three to four years.
+4.8.3 Groundwater is the principal source for minor irrigation and the Central Ground Water Board (CGWB) is responsible for generation and dissemination of statistics on ground water which inter-alia include statistics on minor irrigation. The Minor Irrigation Division of the Ministry of Water Resources also compiles information on minor irrigation at the national level on the basis of statistics furnished by nodal offices designated for the purpose in individual States. The Command Area Development Division of the Ministry compiles and disseminates data on Command Area Development Programme (CADP) furnished by State Command Area Development Authorities (CADAs).
+4.8.4 Lack of a sound database for the minor irrigation sector has made it necessary to conduct a periodical Census of Minor Irrigation works throughout the country under the scheme of Rationalisation of Minor Irrigation Statistics (RMIS). The primary fieldwork of the census is entrusted to the patwari and the village level worker (of C.D. block) under the supervision of block-level officials who also exercise a five per cent sample check in randomly selected villages. The results of the sample check are used to apply a correction factor to the main census data. Validation of data takes place at the district level and further compilation and tabulation at the State level with the help of software provided by the National Informatics Centre. The First census was conducted with reference year 1986-87 and the all-India Census Report was published in November 1993. The Second census with reference year 1993-94 has been completed and the report released recently. The Third census is being launched with reference period 2000-2001. A sample survey with reference year 1998-99 to assess the status of minor irrigation schemes, in use at the time of Second census is also being conducted.
+4.8.5 The Central Water Commission (CWC), which is the nodal agency for water resource development in the country, is responsible for statistics of water resources pertaining to major and medium irrigation projects. The River Management Wing of CWC is engaged in hydrological data collection relating to all the important river systems in the country with the help of as many as 877 hydrological observation sites. The Information System Organisation (ISO) in the CWC is involved in planning, implementing, monitoring and coordinating all aspects of activities associated with information-gathering activities, analytical studies and computerisation.
+4.8.6 Statistics compiled by CWC on major and medium irrigation projects and those compiled by the Minor Irrigation Division, especially the irrigation potential created and actually being utilised are the alternative sources of estimates of total irrigated area.
+Deficiencies
+4.8.7 There is a large variation between the statistics of “area irrigated” published by the DESMOA and the “irrigation potential utilised” published by the Ministry of Water Resources (see Annexe 4.7). Both data series are available with a considerable time lag.
+4.8.8 The existing system of generation and dissemination of data in respect of major and medium irrigation projects does not permit real time monitoring of inflows of water and its utilisation through canals and the distributory system. Reluctance on the part of the States to furnish the data in view of their vested interest in the sharing of water is another stumbling block.
+4.8.9 A large volume of useful data is reported to be available with the CWC on various aspects of irrigation without any statistical analysis. These data need to be put to use by the statistical machinery for better management of water resources.
+Conclusions and Recommendations
+4.8.10 In view of the wide variation between the data on irrigated area provided by the DESMOA and the Ministry of Water Resources, it becomes essential that State Governments make a special effort to minimise the divergence through appropriate interaction among the departments concerned. This is better attempted at the local level (panchayat or village).
+4.8.11 It is desirable to have statistics of irrigated area with cross-classification by source of irrigation (major, medium and minor) and by individual crop. As this involves laborious tabulation at the village level, this may be done once in five years as part of the Agricultural Census.
+4.8.12 In order to reduce the time lag between the generation and dissemination of data in respect of irrigation projects for real time monitoring of water resources, and proper and efficient water management, it is necessary that the major and medium irrigation projects are provided with computer facilities as well as appropriate Geographical Information Systems (GIS).
+4.8.13 Involvement of the State Directorates of Economics and Statistics (DESs) in all State-level programmes of irrigation statistics and establishing direct linkage between the State DESs and the nodal Central Government agencies will help speedy data flow. The State DESs need to be strengthened for this purpose. The CWC has a major role in the production of water resources statistics. It is desirable to strengthen the network of CWC field offices by creating statistical monitoring and evaluation cells in them with trained statistical personnel. In order to oversee and guide the development and management of statistics of water resources, the Central Statistical Organisation (CSO) should designate a senior-level officer to interact with Central and State irrigation agencies.
+4.8.14 The divergence between the two series of irrigated area published by the Ministry of Agriculture and Ministry of Water Resources is inevitable due to different concepts and definitions used by them. The data users should be made aware of these differences for proper understanding and analysis of data.
+4.8.15 The Commission, therefore, recommends that:
+In view of wide variation between the irrigated area generated by the Ministry of Agriculture and the Ministry of Water Resources, the State Governments should make an attempt to explain and reduce the divergence, to the extent possible, through mutual consultation between the two agencies engaged in the data collection at the local level.
+The State Directorates of Economics and Statistics (DESs) should be made the nodal agencies in respect of irrigation statistics and they should establish direct links with the State and Central agencies concerned to secure speedy data flow.
+Statistical monitoring and evaluation cells with trained statistical personnel should be created in the field offices of the Central Water Commission (CWC) in order to generate a variety of statistics relating to water use.
+The Central Statistical Organisation (CSO) should designate a senior level officer to interact with the Central and State irrigation authorities in order to promote an efficient system of water resources statistics and oversee its activities.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

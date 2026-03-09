@@ -1,0 +1,4 @@
+source_type,source_name,total_chars,total_words,saved_text_file
+pdf,Farming Schemes.pdf,638828,94954,/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/text_extracted/Farming_Schemes_pdf.txt
+pdf,farmerbook.pdf,278092,43759,/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/text_extracted/farmerbook_pdf.txt
+web,NSC_MoSPI_4_Agricultural_Statistics_ALL,80317,12388,/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/text_extracted/web_ALL.txt

@@ -1,0 +1,90 @@
+SECTION: Crop Area Statistics
+URL: https://nsc.mospi.gov.in/42-crop-area-statistics
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.2 Crop Area Statistics
+Current Status
+4.2.1 From the point of view of crop area statistics, the States and Union Territories can be classified into three broad groups:
+States and Union Territories which have been cadastral surveyed and where area and land use statistics form a part of the land records maintained by the revenue agency (referred to as “temporarily settled States”). This system is followed in 18 States namely, Andhra Pradesh, Assam (excluding hill districts), Bihar, Chatisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Madhya Pradesh, Maharashtra, Punjab, Rajasthan, Tamil Nadu, Uttaranchal and Uttar Pradesh, and the five Union Territories of Chandigarh, Dadra and Nagar Haveli, Daman and Diu, Delhi and Pondicherry.
+Kerala, Orissa and West Bengal known as “permanently settled” States, where there is no land revenue agency at the village level and crop area and land use statistics are collected through a scheme of sample surveys.
+Part of Assam (hill districts), Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim and Tripura, and the two Union Territories of Andaman and Nicobar Islands and Lakshadweep, for which only “conventional” estimates are available.
+4.2.2 Statistics of crop area are compiled with the help of the village revenue agency (commonly known as patwari agency) in the temporarily settled parts of the country and by specially appointed field staff in the permanently settled States under a scheme known as “Establishment of an Agency for Reporting Agricultural Statistics (EARAS)”. The remaining eight States in the North-Eastern Region and two other Union Territories do not have a reporting system, though the States of Tripura and Sikkim (except some minor pockets) are cadastral surveyed. They compile what are called conventional crop estimates based on personal assessment of the village chowkidars. The three categories of States and Union Territories account for eighty-six, nine and five per cent, respectively of the total reporting area. Besides, there is non-reporting area of around seven per cent of the geographical area that mainly consists of the hill tracts of North-Eastern States and the area under illegal occupation of Pakistan and China. No statistics are available for these areas.
+4.2.3 In the States that have a patwari agency, a complete enumeration of all fields (survey numbers) called girdawari is made in every village during each crop season to compile land use, irrigation and crop area statistics. In the States covered by EARAS, the girdawari is limited to a random sample of 20 per cent villages of the State, which are selected in such a way that during a period of five years, the entire State is covered.
+4.2.4 Crop area statistics of the temporarily settled areas are comprehensive, being based on the complete enumeration method. They are considered fairly reliable because of the patwari's intimate knowledge of local agriculture and his ready availability in the village. However, due to an increasing range of functions assigned to the patwari, the girdawari tended to receive low priority. In order to improve the timeliness and quality of crop area statistics, two schemes are in operation since early seventies namely, the Timely Reporting Scheme (TRS) and the scheme for Improvement of Crop Statistics (ICS).
+4.2.5 The TRS has the principal objective of reducing the time lag in making available the area statistics of major crops in addition to providing the sampling frame for selection of crop-growing fields for crop cutting experiments. Under the TRS, the patwari is required to complete the girdawari on a priority basis in a 20 per cent random sample of villages and to submit the village crop statements to higher authorities by a stipulated date for the preparation of advance estimates of the area under major crops. These are used in the framing of crop forecasts. The TRS sample of villages is also selected in such a way that the entire temporarily settled parts of the country are covered over a period of five years.
+4.2.6 Under the ICS scheme, an independent agency of supervisors carries out a physical verification of the patwari’s girdawari in a sub-sample of the TRS sample villages (in four clusters of five survey numbers each); and makes an assessment of the extent of discrepancies between the supervisor’s and patwari’s crop area entries in the sample clusters. The supervisor also scrutinises the village crop abstract prepared by the patwari and checks whether it is free from totaling errors and whether it has been dispatched to the higher authorities by the stipulated time. The ICS also covers the permanently settled States and the supervisory agency in this case too carries out the check in a sub-sample of EARAS sample villages using the same methodology followed in the temporarily settled States. In all, 10,000 sample villages are covered by the ICS, roughly 8,500 in the temporarily settled States and 1,500 in the permanently settled States. The National Sample Survey Organisation is responsible for the planning and operations of the ICS and employs full-time staff for field supervision. It shares the fieldwork with the designated State agencies, which carry out the field supervision in about half the number of sample villages.
+4.2.7 More recently, since 1990, an attempt has been underway to use Remote Sensing (RS) technology for estimation of crop areas and land use through a Centrally sponsored scheme, “Crop Acreage and Production Estimation (CAPE)”. The objective of CAPE, among others, is to provide State-level crop area estimates, meeting a 90/90 accuracy goal using the remote sensing data covering mainly the crop growing parts of the States. Pre-harvest area estimates are reported to be generated on a regular basis for major crops like rice, wheat, ragi, jowar, groundnut and cotton. The feasibility of Remote Sensing in providing detailed and disaggregated area statistics at the local level (village or panchayat) has yet to be established.
+Deficiencies
+4.2.8 As noted earlier, the main purpose of the ICS scheme is to monitor the performance of the primary reporting agency in the TRS and EARAS villages. The findings of the ICS over a number of years reveal a high degree of negligence in carrying out the girdawari, thereby casting doubt on the reliability of crop area statistics. For instance, a review of the ICS results for the four years ending 1998-99 (see Annexe 4.1) shows that:
+The patwaris submit crop statements to the processing centres without completing the girdawari in about 10 per cent of the villages;
+Village crop statements are received at the processing centre from only around 78 per cent of the sample villages (i.e. a non-response of 22 per cent) and around 45 per cent only by due date;
+Crop entries of the patwari and the supervisor do not tally with each other in about one third of the survey numbers inspected; and
+The net effect of discrepancies between the patwari’s and supervisor’s crop entries is quite large in respect of even some major crops.
+4.2.9 It is significant that the ratios mentioned above are of the same order in a previous study of ICS results for the four-year period ending 1988-89.
+4.2.10 This is the kind of performance in the TRS sample despite the patwari being aware that his work will be subjected to technical supervision; one cannot therefore expect a better performance in 80 per cent of the remaining villages.
+4.2.11 The above findings are a clear indication of the patwari’s neglect of one of his major functions. It is a matter of concern that this has continued on for many years evidently with the knowledge and indulgence of the higher-level officials of the State departments of revenue and land records.
+4.2.12 Another deficiency of crop area statistics needs to be mentioned. With the development and modernisation of agriculture, several new short duration crops are grown. Although the patwari is required to undertake intermediate crop inspection between the two major kharif and rabi seasons, this does not appear to be done regularly. Even if short duration crops like vegetables, flowers, mushroom, etc. are covered during the crop inspection, they are not listed separately in the final crop abstract but clubbed together under “other crops”.
+Conclusions and Recommendations
+4.2.13 It is seen that a major reason for the poor quality of area statistics is the failure of the patwari agency to devote adequate time and attention to the girdawari. The fact that the patwari agency is overburdened with multifarious functions and has to cope with a large geographical jurisdiction, typically four or five villages and in some States extending over more than 10 villages (Bihar, Himachal Pradesh, Orissa and Uttaranchal) has long been acknowledged. The National Commission on Agriculture (NCA), while reiterating that the patwari agency should continue to be responsible for the collection of basic Agricultural Statistics, recommended that his jurisdiction should be reduced wherever it is excessive and that intensive supervision through normal revenue and statistical staff should be organised over his work of area enumeration. The ICS fulfills the latter part of NCA recommendation and has been doing a commendable job in assessing the quality of crop area statistics and in highlighting the deficiencies. However, there has been no significant effort on the part of the State Revenue and Land Records Departments to take effective remedial measures.
+4.2.14 Some southern states, a few years ago, replaced the hereditary system of appointing patwaris (karnams) by a state-wide cadre of transferable officials. This system is reported to be working quite well. However, it is desirable that the states concerned keep staff transfers to the minimum and see that when an officer is posted at a place, he remains there sufficiently long to take advantage of familiarity with the local conditions in discharging his functions.
+4.2.15 It is worth emphasising that the patwari agency and the girdawari, which has stood the test of time and proved to be cost effective and efficient in generating crop and land use statistics down to the village level, should be restored to its past level of performance. It seems almost impossible at this stage to increase the strength of patwaris (as recommended by NCA) due to financial constraints. The only course readily available is to declare the girdawari as a programme of high priority and the patwari be mandated to carry out the crop inspection according to the prescribed time schedule, if necessary, by sparing him from other duties during that period. More importantly, this has to be ensured rigorously in the case of TRS sample villages. There should be intensive supervision of the patwari’s work by higher-level revenue officials as well as by the technical staff of the ICS and the former should be made accountable for any lapses.
+4.2.16 Once the TRS is put on a sound footing, it is possible to use its results for framing not only the advance estimates but also the final estimates of crop area. Data from a 20 per cent sample is large enough to estimate crop area with a sufficient degree of precision at the all-India, State and district levels. By ensuring that the girdawari in the TRS sample is carried out under strict operational and technical control, area estimates based on the TRS data will be of high quality in terms of reliability and timeliness.
+4.2.17 The Commission, therefore, considers it feasible that the forecasts of crop area as well as the final estimates published by the Ministry of Agriculture should henceforth be based on the TRS sample data alone. This makes it possible that the final area estimates also become available soon after the sowing is completed in each crop season. Transmission and processing of data can be expedited with the help of Information Technology and this can be handled more efficiently due to the reduced volume of data. The TRS data can also be used to build estimates of crop area separately under irrigated, un-irrigated, high yielding and local varieties.
+4.2.18 If the TRS replaces the present system of cent per cent coverage in the preparation of forecasts and final estimates of crop area, there is a possibility that the girdawari in non-TRS villages may tend to be neglected more than before or not even conducted at all. Cent per cent coverage may still be required to frame estimates for small areas (block, panchayat, etc.). This can be organised in the local areas concerned whenever the need arises. The States may decide whether or not to continue the girdawari on a regular basis in the non-TRS villages. Dispensing with the cent per cent coverage and concentrating instead on a 20 per cent sample reduces the patwari’s workload substantially and enables him to pay due attention to the girdawari in the sample village(s) falling in his jurisdiction.
+4.2.19 It may be mentioned that in the permanently settled States of Kerala, Orissa and West Bengal, the girdawari is confined to the 20 per cent villages covered under EARAS and this forms the basis of area estimates. This has to continue and the EARAS operations should be streamlined and effectively supervised, if necessary, by augmenting the strength of the primary reporting agency.
+4.2.20 The North Eastern States and Union Territories that prepare crop area estimates based on personal assessment of village chowkidars need to improve the method of data collection. Some efforts have been made to extend EARAS to some of these States but in the absence of cadastral survey and detailed records it is not possible to use EARAS type of area estimation. The progress made by Remote Sensing Technology (RST) in area estimation holds out a promise to deal with this problem. The Space Application Centre (SAC) may pay special attention to frame crop area estimates in the North Eastern States with as much detail as possible.
+4.2.21 The Commission, therefore, strongly favours the use of TRS and EARAS data for framing area forecasts as well as final estimates in the temporarily and permanently settled parts and the Remote Sensing technique in the rest of the country. Incidentally, the representatives of the Ministry of Agriculture and most States endorsed this approach in the Conference of Central and State Statistical Organisations held in October 2000.
+4.2.22 Before the proposed method is adopted as a substitute for the present one, there should be an exploratory study to make sure that there are no unforeseen impediments in implementation and that it is fully viable to meet the intended purpose. One aspect that deserves consideration is the desirability of adding to the current year’s TRS sample, a small sub-sample of the preceeding year’s TRS sample. Data for two consecutive years from the same set of villages prove useful to improve the precision of the survey estimates.
+4.2.23 The Commission, therefore, recommends that:
+As the data from a 20 per cent sample is large enough to estimate crop area with a sufficient degree of precision at the all-India, State and district levels, Crop area forecasts and final area estimates issued by the Ministry of Agriculture should be based on the results of the 20 per cent Timely Reporting Scheme (TRS) villages in the temporarily settled States and Establishment of an Agency for Reporting Agricultural Statistics (EARAS) scheme villages in the permanently settled states. In the case of the North-Eastern States, Remote Sensing methodology should be used for this purpose after testing its viability.
+The patwari and the supervisors above him should be mandated to accord the highest priority to the work of the girdawari and the patwari be spared, if necessary, from other duties during the period of girdawari.
+The patwari and the primary staff employed in Establishment of an Agency for Reporting Agricultural Statistics (EARAS) should be imparted systematic and periodic training and the fieldwork should be subjected to intensive supervision by the higher-level revenue officials as well as by the technical staff.
+For proper and timely conduct of the girdawari, the concerned supervisory staff should be made accountable.
+Timely Reporting Scheme (TRS) and Establishment of an Agency for Reporting Agricultural Statistics (EARAS) scheme should be regarded as programmes of national importance and the Government of India at the highest level should prevail upon the State Governments to give due priority to them, deploy adequate resources for the purpose and ensure proper conduct of field operations in time.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

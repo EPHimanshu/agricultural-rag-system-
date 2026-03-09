@@ -1,0 +1,64 @@
+SECTION: Introduction
+URL: https://nsc.mospi.gov.in/41-introduction
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.1 INTRODUCTION
+Central Statistical Organisation
+4.1.1 Agriculture plays a vital role in the Indian economy. Over 70 per cent of the rural households depend on agriculture as their principal means of livelihood. Agriculture along with fisheries and forestry accounts for one-third of the nation’s Gross Domestic Product (GDP) and is its single largest contributor. Agricultural exports constitute a fifth of the total exports of the country. In view of the predominant position of the Agricultural Sector, collection and maintenance of Agricultural Statistics assume great importance.
+4.1.2 India has a well-established and internationally acknowledged Agricultural Statistics System. It is a decentralised system with the State Governments – State Agricultural Statistics Authorities (SASAs) to be more specific – playing a major role in the collection and compilation of Agricultural Statistics at the State level while the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA) at the Centre is the pivotal agency for such compilation at the all-India level. The other principal data-gathering agencies involved are the National Sample Survey Organisation (NSSO), and the State Directorates of Economics and Statistics (DESs).
+4.1.3 The Agricultural Statistics System is very comprehensive and provides data on a wide range of topics such as crop area and production, land use, irrigation, land holdings, agricultural prices and market intelligence, livestock, fisheries, forestry, etc. It has been subjected to review several times since independence so as to make it adaptive to contemporary changes in agricultural practices. Some of the important expert groups, which examined the working of the system are: the Technical Committee on Coordination of Agricultural Statistics (1949), the National Commission on Agriculture (1976), the High Level Evaluation Committee (1983) and the more recent Workshop on Modernisation of the Statistical System (1998).
+4.1.4 The Technical Committee on Coordination of Agricultural Statistics in India (1949) under the Chairmanship of Shri W.R. Natu was the first to examine the Agricultural Statistics System after independence. It mainly focused on standardising concepts and definitions, devising uniform forms of returns for collection of data and suggesting the scope of enquiry in respect of areas where the system of land records did not exist. The Committee also suggested among other measures, a pattern of organisation for collection of Agricultural Statistics at different levels.
+4.1.5 The National Commission on Agriculture (1976), while critically reviewing the entire range of Agricultural Statistics made far-reaching recommendations to lay a strong foundation for statistical operations and to help the Government in formulating appropriate strategies.
+4.1.6 While reviewing the functions of the Central Statistical Organisation (CSO) with reference to different sectors of the economy, the High Level Evaluation Committee (1983) under the Chairmanship of Professor A.M. Khusro, brought to light important data gaps including methodological gaps and made a number of recommendations to improve the system. It emphasised the need for building up a strong database for Agricultural Statistics so as to aid planning and policy formulation. It also identified newly emerging areas such as crop estimates at the local-level Community Development Block (C.D.Block), and crop forecasting and recommended development of suitable methodologies for quantitative measurement of important parameters in those areas.
+4.1.7 The recent Workshop on Modernisation of the Statistical System in India (1998) considered various measures required to modernise the system by identifying the lacunae, and suggested the use of latest techniques including information and communication tools to improve the timeliness, reliability and adequacy of Agricultural Statistics.
+4.1.8 The National Statistical Commission took note of the findings and recommendations of all these important bodies in the context of the prevailing status of Agricultural Statistics and attempted a fresh analysis focusing its attention on an identification of the deficiencies of the system and the remedial measures required to set them right. The Commission was assisted in this task by detailed documentation furnished by the Secretariat and the Central and State Government agencies. It also benefited from personal interaction with the representatives of these agencies. The Conference of Central and State Statistical Organisations (held in October 2000) also provided valuable inputs on the issues under consideration.
+4.1.9 This chapter on Agricultural Statistics deals with 21 subject areas. The approach followed in the presentation of the report is to first indicate the current status in respect of each of these subject areas dealt with including the methodology in use; then to highlight the major deficiencies and finally, to make recommendations for improvement. Most of the recommendations suggest the scope of improvement in the organisation and management of current practices, additional administrative support and better coordination among the State and Central agencies concerned with statistical operations.
+Central Statistical Organisation
+4.1.10 Crop and land use statistics form the backbone of the Agricultural Statistics System. Reliable and timely information on crop area, crop production and land use is of great importance to planners and policy makers for efficient agricultural development and for taking decisions on procurement, storage, public distribution, export, import and many other related issues. With an increasingly evident trend of decentralised planning and administration, these statistics are needed with as much disaggregation as possible down to the level of village panchayats. India possesses an excellent infrastructure and it has a long-standing tradition of generating a comprehensive series of crop and land use statistics though, of late, there has been a disturbing deterioration in their quality. With most parts of the country having detailed cadastral survey maps, frequently updated land records and the institution of a permanent village reporting agency, the country has all the necessary means to produce reliable and timely statistics. The performance of the system was quite satisfactory until 2-3 decades ago but it has since become dysfunctional essentially due to administrative apathy and inaction. It is still not too late to revamp the system and restore its credibility. The following sections deal with the current status and deficiencies of the system and what needs to be done to improve it.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

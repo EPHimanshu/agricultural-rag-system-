@@ -1,0 +1,13 @@
+source_type,file_name,chunks,total_words,avg_chunk_words,avg_chunk_chars
+pdf,Farming_Schemes_pdf.txt,559,122854,219.77459749552773,1447.345259391771
+pdf,farmerbook_pdf.txt,258,56609,219.41472868217053,1384.8255813953488
+web,web_Crop_Area_Statistics.txt,16,3509,219.3125,1364.125
+web,web_Crop_Production.txt,10,2056,205.6,1286.3
+web,web_Irrigation_Statistics.txt,8,1648,206.0,1346.5
+web,web_Agricultural_Prices.txt,6,1174,195.66666666666666,1254.8333333333333
+web,web_Fisheries_Statistics.txt,6,1235,205.83333333333334,1338.5
+web,web_Crop_Forecasts.txt,6,1211,201.83333333333334,1356.3333333333333
+web,web_Forestry_Statistics.txt,6,1165,194.16666666666666,1267.6666666666667
+web,web_Introduction.txt,6,1295,215.83333333333334,1477.6666666666667
+web,web_Land_Use.txt,5,946,189.2,1212.4
+web,web_Production_of_Horticultural_Crops.txt,5,1099,219.8,1463.0

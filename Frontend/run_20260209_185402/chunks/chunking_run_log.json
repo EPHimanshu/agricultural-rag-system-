@@ -1,0 +1,32 @@
+{
+  "run_id": "20260209_185402",
+  "created_at": "2026-02-10T05:51:59.256263",
+  "project_root": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project",
+  "run_dir": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402",
+  "input_text_dir": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/text_extracted",
+  "output_chunk_dir": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/chunks",
+  "chunk_size_words": 220,
+  "overlap_words": 50,
+  "num_files_input_txt": 13,
+  "num_files_chunked": 12,
+  "num_chunks": 891,
+  "source_type_counts": {
+    "pdf": 817,
+    "web": 74
+  },
+  "skipped_files": [
+    "web_ALL.txt"
+  ],
+  "empty_input_files": [],
+  "files_with_zero_chunks": [],
+  "null_chunk_text_rows": 0,
+  "empty_chunk_text_rows": 0,
+  "saved_files": {
+    "chunks_csv": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/chunks/chunks.csv",
+    "chunks_parquet": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/chunks/chunks.parquet",
+    "preview_csv": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/chunks/chunks_preview_top10.csv",
+    "chunk_stats_by_file": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/chunks/chunk_stats_by_file.csv",
+    "chunk_stats_by_type": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/chunks/chunk_stats_by_type.csv",
+    "chunk_examples_first_per_file": "/content/drive/MyDrive/Colab Notebooks/Shruti/AgriGenius_Project/outputs/run_20260209_185402/chunks/chunk_examples_first_per_file.csv"
+  }
+}

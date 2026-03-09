@@ -1,0 +1,716 @@
+SECTION: Introduction
+URL: https://nsc.mospi.gov.in/41-introduction
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.1 INTRODUCTION
+Central Statistical Organisation
+4.1.1 Agriculture plays a vital role in the Indian economy. Over 70 per cent of the rural households depend on agriculture as their principal means of livelihood. Agriculture along with fisheries and forestry accounts for one-third of the nation’s Gross Domestic Product (GDP) and is its single largest contributor. Agricultural exports constitute a fifth of the total exports of the country. In view of the predominant position of the Agricultural Sector, collection and maintenance of Agricultural Statistics assume great importance.
+4.1.2 India has a well-established and internationally acknowledged Agricultural Statistics System. It is a decentralised system with the State Governments – State Agricultural Statistics Authorities (SASAs) to be more specific – playing a major role in the collection and compilation of Agricultural Statistics at the State level while the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA) at the Centre is the pivotal agency for such compilation at the all-India level. The other principal data-gathering agencies involved are the National Sample Survey Organisation (NSSO), and the State Directorates of Economics and Statistics (DESs).
+4.1.3 The Agricultural Statistics System is very comprehensive and provides data on a wide range of topics such as crop area and production, land use, irrigation, land holdings, agricultural prices and market intelligence, livestock, fisheries, forestry, etc. It has been subjected to review several times since independence so as to make it adaptive to contemporary changes in agricultural practices. Some of the important expert groups, which examined the working of the system are: the Technical Committee on Coordination of Agricultural Statistics (1949), the National Commission on Agriculture (1976), the High Level Evaluation Committee (1983) and the more recent Workshop on Modernisation of the Statistical System (1998).
+4.1.4 The Technical Committee on Coordination of Agricultural Statistics in India (1949) under the Chairmanship of Shri W.R. Natu was the first to examine the Agricultural Statistics System after independence. It mainly focused on standardising concepts and definitions, devising uniform forms of returns for collection of data and suggesting the scope of enquiry in respect of areas where the system of land records did not exist. The Committee also suggested among other measures, a pattern of organisation for collection of Agricultural Statistics at different levels.
+4.1.5 The National Commission on Agriculture (1976), while critically reviewing the entire range of Agricultural Statistics made far-reaching recommendations to lay a strong foundation for statistical operations and to help the Government in formulating appropriate strategies.
+4.1.6 While reviewing the functions of the Central Statistical Organisation (CSO) with reference to different sectors of the economy, the High Level Evaluation Committee (1983) under the Chairmanship of Professor A.M. Khusro, brought to light important data gaps including methodological gaps and made a number of recommendations to improve the system. It emphasised the need for building up a strong database for Agricultural Statistics so as to aid planning and policy formulation. It also identified newly emerging areas such as crop estimates at the local-level Community Development Block (C.D.Block), and crop forecasting and recommended development of suitable methodologies for quantitative measurement of important parameters in those areas.
+4.1.7 The recent Workshop on Modernisation of the Statistical System in India (1998) considered various measures required to modernise the system by identifying the lacunae, and suggested the use of latest techniques including information and communication tools to improve the timeliness, reliability and adequacy of Agricultural Statistics.
+4.1.8 The National Statistical Commission took note of the findings and recommendations of all these important bodies in the context of the prevailing status of Agricultural Statistics and attempted a fresh analysis focusing its attention on an identification of the deficiencies of the system and the remedial measures required to set them right. The Commission was assisted in this task by detailed documentation furnished by the Secretariat and the Central and State Government agencies. It also benefited from personal interaction with the representatives of these agencies. The Conference of Central and State Statistical Organisations (held in October 2000) also provided valuable inputs on the issues under consideration.
+4.1.9 This chapter on Agricultural Statistics deals with 21 subject areas. The approach followed in the presentation of the report is to first indicate the current status in respect of each of these subject areas dealt with including the methodology in use; then to highlight the major deficiencies and finally, to make recommendations for improvement. Most of the recommendations suggest the scope of improvement in the organisation and management of current practices, additional administrative support and better coordination among the State and Central agencies concerned with statistical operations.
+Central Statistical Organisation
+4.1.10 Crop and land use statistics form the backbone of the Agricultural Statistics System. Reliable and timely information on crop area, crop production and land use is of great importance to planners and policy makers for efficient agricultural development and for taking decisions on procurement, storage, public distribution, export, import and many other related issues. With an increasingly evident trend of decentralised planning and administration, these statistics are needed with as much disaggregation as possible down to the level of village panchayats. India possesses an excellent infrastructure and it has a long-standing tradition of generating a comprehensive series of crop and land use statistics though, of late, there has been a disturbing deterioration in their quality. With most parts of the country having detailed cadastral survey maps, frequently updated land records and the institution of a permanent village reporting agency, the country has all the necessary means to produce reliable and timely statistics. The performance of the system was quite satisfactory until 2-3 decades ago but it has since become dysfunctional essentially due to administrative apathy and inaction. It is still not too late to revamp the system and restore its credibility. The following sections deal with the current status and deficiencies of the system and what needs to be done to improve it.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Crop Area Statistics
+URL: https://nsc.mospi.gov.in/42-crop-area-statistics
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.2 Crop Area Statistics
+Current Status
+4.2.1 From the point of view of crop area statistics, the States and Union Territories can be classified into three broad groups:
+States and Union Territories which have been cadastral surveyed and where area and land use statistics form a part of the land records maintained by the revenue agency (referred to as “temporarily settled States”). This system is followed in 18 States namely, Andhra Pradesh, Assam (excluding hill districts), Bihar, Chatisgarh, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka, Madhya Pradesh, Maharashtra, Punjab, Rajasthan, Tamil Nadu, Uttaranchal and Uttar Pradesh, and the five Union Territories of Chandigarh, Dadra and Nagar Haveli, Daman and Diu, Delhi and Pondicherry.
+Kerala, Orissa and West Bengal known as “permanently settled” States, where there is no land revenue agency at the village level and crop area and land use statistics are collected through a scheme of sample surveys.
+Part of Assam (hill districts), Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim and Tripura, and the two Union Territories of Andaman and Nicobar Islands and Lakshadweep, for which only “conventional” estimates are available.
+4.2.2 Statistics of crop area are compiled with the help of the village revenue agency (commonly known as patwari agency) in the temporarily settled parts of the country and by specially appointed field staff in the permanently settled States under a scheme known as “Establishment of an Agency for Reporting Agricultural Statistics (EARAS)”. The remaining eight States in the North-Eastern Region and two other Union Territories do not have a reporting system, though the States of Tripura and Sikkim (except some minor pockets) are cadastral surveyed. They compile what are called conventional crop estimates based on personal assessment of the village chowkidars. The three categories of States and Union Territories account for eighty-six, nine and five per cent, respectively of the total reporting area. Besides, there is non-reporting area of around seven per cent of the geographical area that mainly consists of the hill tracts of North-Eastern States and the area under illegal occupation of Pakistan and China. No statistics are available for these areas.
+4.2.3 In the States that have a patwari agency, a complete enumeration of all fields (survey numbers) called girdawari is made in every village during each crop season to compile land use, irrigation and crop area statistics. In the States covered by EARAS, the girdawari is limited to a random sample of 20 per cent villages of the State, which are selected in such a way that during a period of five years, the entire State is covered.
+4.2.4 Crop area statistics of the temporarily settled areas are comprehensive, being based on the complete enumeration method. They are considered fairly reliable because of the patwari's intimate knowledge of local agriculture and his ready availability in the village. However, due to an increasing range of functions assigned to the patwari, the girdawari tended to receive low priority. In order to improve the timeliness and quality of crop area statistics, two schemes are in operation since early seventies namely, the Timely Reporting Scheme (TRS) and the scheme for Improvement of Crop Statistics (ICS).
+4.2.5 The TRS has the principal objective of reducing the time lag in making available the area statistics of major crops in addition to providing the sampling frame for selection of crop-growing fields for crop cutting experiments. Under the TRS, the patwari is required to complete the girdawari on a priority basis in a 20 per cent random sample of villages and to submit the village crop statements to higher authorities by a stipulated date for the preparation of advance estimates of the area under major crops. These are used in the framing of crop forecasts. The TRS sample of villages is also selected in such a way that the entire temporarily settled parts of the country are covered over a period of five years.
+4.2.6 Under the ICS scheme, an independent agency of supervisors carries out a physical verification of the patwari’s girdawari in a sub-sample of the TRS sample villages (in four clusters of five survey numbers each); and makes an assessment of the extent of discrepancies between the supervisor’s and patwari’s crop area entries in the sample clusters. The supervisor also scrutinises the village crop abstract prepared by the patwari and checks whether it is free from totaling errors and whether it has been dispatched to the higher authorities by the stipulated time. The ICS also covers the permanently settled States and the supervisory agency in this case too carries out the check in a sub-sample of EARAS sample villages using the same methodology followed in the temporarily settled States. In all, 10,000 sample villages are covered by the ICS, roughly 8,500 in the temporarily settled States and 1,500 in the permanently settled States. The National Sample Survey Organisation is responsible for the planning and operations of the ICS and employs full-time staff for field supervision. It shares the fieldwork with the designated State agencies, which carry out the field supervision in about half the number of sample villages.
+4.2.7 More recently, since 1990, an attempt has been underway to use Remote Sensing (RS) technology for estimation of crop areas and land use through a Centrally sponsored scheme, “Crop Acreage and Production Estimation (CAPE)”. The objective of CAPE, among others, is to provide State-level crop area estimates, meeting a 90/90 accuracy goal using the remote sensing data covering mainly the crop growing parts of the States. Pre-harvest area estimates are reported to be generated on a regular basis for major crops like rice, wheat, ragi, jowar, groundnut and cotton. The feasibility of Remote Sensing in providing detailed and disaggregated area statistics at the local level (village or panchayat) has yet to be established.
+Deficiencies
+4.2.8 As noted earlier, the main purpose of the ICS scheme is to monitor the performance of the primary reporting agency in the TRS and EARAS villages. The findings of the ICS over a number of years reveal a high degree of negligence in carrying out the girdawari, thereby casting doubt on the reliability of crop area statistics. For instance, a review of the ICS results for the four years ending 1998-99 (see Annexe 4.1) shows that:
+The patwaris submit crop statements to the processing centres without completing the girdawari in about 10 per cent of the villages;
+Village crop statements are received at the processing centre from only around 78 per cent of the sample villages (i.e. a non-response of 22 per cent) and around 45 per cent only by due date;
+Crop entries of the patwari and the supervisor do not tally with each other in about one third of the survey numbers inspected; and
+The net effect of discrepancies between the patwari’s and supervisor’s crop entries is quite large in respect of even some major crops.
+4.2.9 It is significant that the ratios mentioned above are of the same order in a previous study of ICS results for the four-year period ending 1988-89.
+4.2.10 This is the kind of performance in the TRS sample despite the patwari being aware that his work will be subjected to technical supervision; one cannot therefore expect a better performance in 80 per cent of the remaining villages.
+4.2.11 The above findings are a clear indication of the patwari’s neglect of one of his major functions. It is a matter of concern that this has continued on for many years evidently with the knowledge and indulgence of the higher-level officials of the State departments of revenue and land records.
+4.2.12 Another deficiency of crop area statistics needs to be mentioned. With the development and modernisation of agriculture, several new short duration crops are grown. Although the patwari is required to undertake intermediate crop inspection between the two major kharif and rabi seasons, this does not appear to be done regularly. Even if short duration crops like vegetables, flowers, mushroom, etc. are covered during the crop inspection, they are not listed separately in the final crop abstract but clubbed together under “other crops”.
+Conclusions and Recommendations
+4.2.13 It is seen that a major reason for the poor quality of area statistics is the failure of the patwari agency to devote adequate time and attention to the girdawari. The fact that the patwari agency is overburdened with multifarious functions and has to cope with a large geographical jurisdiction, typically four or five villages and in some States extending over more than 10 villages (Bihar, Himachal Pradesh, Orissa and Uttaranchal) has long been acknowledged. The National Commission on Agriculture (NCA), while reiterating that the patwari agency should continue to be responsible for the collection of basic Agricultural Statistics, recommended that his jurisdiction should be reduced wherever it is excessive and that intensive supervision through normal revenue and statistical staff should be organised over his work of area enumeration. The ICS fulfills the latter part of NCA recommendation and has been doing a commendable job in assessing the quality of crop area statistics and in highlighting the deficiencies. However, there has been no significant effort on the part of the State Revenue and Land Records Departments to take effective remedial measures.
+4.2.14 Some southern states, a few years ago, replaced the hereditary system of appointing patwaris (karnams) by a state-wide cadre of transferable officials. This system is reported to be working quite well. However, it is desirable that the states concerned keep staff transfers to the minimum and see that when an officer is posted at a place, he remains there sufficiently long to take advantage of familiarity with the local conditions in discharging his functions.
+4.2.15 It is worth emphasising that the patwari agency and the girdawari, which has stood the test of time and proved to be cost effective and efficient in generating crop and land use statistics down to the village level, should be restored to its past level of performance. It seems almost impossible at this stage to increase the strength of patwaris (as recommended by NCA) due to financial constraints. The only course readily available is to declare the girdawari as a programme of high priority and the patwari be mandated to carry out the crop inspection according to the prescribed time schedule, if necessary, by sparing him from other duties during that period. More importantly, this has to be ensured rigorously in the case of TRS sample villages. There should be intensive supervision of the patwari’s work by higher-level revenue officials as well as by the technical staff of the ICS and the former should be made accountable for any lapses.
+4.2.16 Once the TRS is put on a sound footing, it is possible to use its results for framing not only the advance estimates but also the final estimates of crop area. Data from a 20 per cent sample is large enough to estimate crop area with a sufficient degree of precision at the all-India, State and district levels. By ensuring that the girdawari in the TRS sample is carried out under strict operational and technical control, area estimates based on the TRS data will be of high quality in terms of reliability and timeliness.
+4.2.17 The Commission, therefore, considers it feasible that the forecasts of crop area as well as the final estimates published by the Ministry of Agriculture should henceforth be based on the TRS sample data alone. This makes it possible that the final area estimates also become available soon after the sowing is completed in each crop season. Transmission and processing of data can be expedited with the help of Information Technology and this can be handled more efficiently due to the reduced volume of data. The TRS data can also be used to build estimates of crop area separately under irrigated, un-irrigated, high yielding and local varieties.
+4.2.18 If the TRS replaces the present system of cent per cent coverage in the preparation of forecasts and final estimates of crop area, there is a possibility that the girdawari in non-TRS villages may tend to be neglected more than before or not even conducted at all. Cent per cent coverage may still be required to frame estimates for small areas (block, panchayat, etc.). This can be organised in the local areas concerned whenever the need arises. The States may decide whether or not to continue the girdawari on a regular basis in the non-TRS villages. Dispensing with the cent per cent coverage and concentrating instead on a 20 per cent sample reduces the patwari’s workload substantially and enables him to pay due attention to the girdawari in the sample village(s) falling in his jurisdiction.
+4.2.19 It may be mentioned that in the permanently settled States of Kerala, Orissa and West Bengal, the girdawari is confined to the 20 per cent villages covered under EARAS and this forms the basis of area estimates. This has to continue and the EARAS operations should be streamlined and effectively supervised, if necessary, by augmenting the strength of the primary reporting agency.
+4.2.20 The North Eastern States and Union Territories that prepare crop area estimates based on personal assessment of village chowkidars need to improve the method of data collection. Some efforts have been made to extend EARAS to some of these States but in the absence of cadastral survey and detailed records it is not possible to use EARAS type of area estimation. The progress made by Remote Sensing Technology (RST) in area estimation holds out a promise to deal with this problem. The Space Application Centre (SAC) may pay special attention to frame crop area estimates in the North Eastern States with as much detail as possible.
+4.2.21 The Commission, therefore, strongly favours the use of TRS and EARAS data for framing area forecasts as well as final estimates in the temporarily and permanently settled parts and the Remote Sensing technique in the rest of the country. Incidentally, the representatives of the Ministry of Agriculture and most States endorsed this approach in the Conference of Central and State Statistical Organisations held in October 2000.
+4.2.22 Before the proposed method is adopted as a substitute for the present one, there should be an exploratory study to make sure that there are no unforeseen impediments in implementation and that it is fully viable to meet the intended purpose. One aspect that deserves consideration is the desirability of adding to the current year’s TRS sample, a small sub-sample of the preceeding year’s TRS sample. Data for two consecutive years from the same set of villages prove useful to improve the precision of the survey estimates.
+4.2.23 The Commission, therefore, recommends that:
+As the data from a 20 per cent sample is large enough to estimate crop area with a sufficient degree of precision at the all-India, State and district levels, Crop area forecasts and final area estimates issued by the Ministry of Agriculture should be based on the results of the 20 per cent Timely Reporting Scheme (TRS) villages in the temporarily settled States and Establishment of an Agency for Reporting Agricultural Statistics (EARAS) scheme villages in the permanently settled states. In the case of the North-Eastern States, Remote Sensing methodology should be used for this purpose after testing its viability.
+The patwari and the supervisors above him should be mandated to accord the highest priority to the work of the girdawari and the patwari be spared, if necessary, from other duties during the period of girdawari.
+The patwari and the primary staff employed in Establishment of an Agency for Reporting Agricultural Statistics (EARAS) should be imparted systematic and periodic training and the fieldwork should be subjected to intensive supervision by the higher-level revenue officials as well as by the technical staff.
+For proper and timely conduct of the girdawari, the concerned supervisory staff should be made accountable.
+Timely Reporting Scheme (TRS) and Establishment of an Agency for Reporting Agricultural Statistics (EARAS) scheme should be regarded as programmes of national importance and the Government of India at the highest level should prevail upon the State Governments to give due priority to them, deploy adequate resources for the purpose and ensure proper conduct of field operations in time.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Crop Production
+URL: https://nsc.mospi.gov.in/43-crop-production
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.3 Crop Production
+Current Status
+4.3.1 Estimates of crop production are obtained by multiplying the area under crop and the yield rate. The yield rate estimates are based on scientifically designed crop cutting experiments conducted under the General Crop Estimation Survey (GCES). The GCES covers around 68 crops (52 food and 16 non-food) in 22 States and 4 Union Territories. Around 5,00,000 experiments are conducted every year with the help of State revenue and agricultural staff of a rank higher than the primary field staff of the departments. The survey design adopted is that of a stratified three stage random sampling with tehsil or taluka as the stratum, a village as the first stage unit, a field growing the specified crop as the second stage unit and a plot, usually 5m x 5m, as the ultimate unit. The experiment consists of marking the plot and harvesting and weighing the produce from the plot. These weights form the basic data for yield estimation. The number of experiments and their distribution over the strata are made in a manner to be able to obtain the yield rate estimates with a fair degree of precision at the level of the State and each major crop-growing district. The field staff is periodically trained in the conduct of crop cutting experiments.
+4.3.2 The Improvement of Crop Statistics (ICS) scheme carries out a quality check on the field operations of GCES under which around 30,000 experiments are supervised by the ICS staff at the harvesting stage, one half by the Assistant Superintendents of the Field Operations Division (FOD) of NSSO and the remaining half by the staff of the State Agricultural Statistics Authority (SASA).
+Deficiencies
+4.3.3 The method of crop cutting experiments is objective and unbiased and if properly followed provides reliable estimates of yield rates. In practice, however, the field staff do not strictly adhere to the prescribed procedures and thereby the survey estimates are subject to a variety of non-sampling errors. The supervisory check by ICS staff reveals a number of such lapses.
+4.3.4 The review of ICS results referred to earlier (see Annexe 4.1) shows that the experiments in the GCES were conducted properly in only 80 per cent of the cases while the rest had one defect or the other. The defects mainly related to wrong selection of sample fields and location of experimental plots, and failure to use essential equipment such as proper weighing scales. The ICS and GCES yield estimates were seen to differ widely from each other, much more than what could be attributed to sampling errors. It is obvious that the GCES in many States is carried out perfunctorily unmindful of the serious consequences. The State departments of revenue and agriculture that are responsible for the surveys, do not seem to consider this programme important enough and there is little higher level supervision and control of field operations. The “High Level Coordination Committee (HLCC) on Agricultural Statistics” in the States is supposed to take remedial action and if it does so, it seems to have little impact on improving the situation.
+4.3.5 GCES carries out around 5,00,000 experiments every year; but these are not still adequate to provide usable estimates below the district level. With the introduction of National Agricultural Insurance Scheme (NAIS) in several States a need is felt for assessment of yields of insured crops at the level of tehsil or C.D. Block and even at the panchayat level. NAIS has, therefore, prescribed additional crop cutting experiments for this purpose at the rate of 16 per block or 8 per panchayat for each insured crop. This imposes an enormous burden on the field agency, increases considerably the non-sampling errors and results in further deterioration of the quality of work. Apart from non-feasibility of carrying out such a huge number of experiments, the recent decision of Government of India that the States should combine GCES and NAIS series of experiments and use them together for framing crop production estimates is fraught with serious consequences. The objectives of the two series are different and the NAIS series is likely to underestimate yield rates because of local pressure from insured farmers whose interest lies in depressing the crop output.
+4.3.6 Yet another deficiency in the production statistics is the divergence between the production figures available from different sources especially in respect of cash crops like cotton, oilseeds and horticultural crops.
+Conclusions and Recommendations
+4.3.7 The estimation of crop yields is based on sound and well-tested crop cutting experiment methodology. The main problem in producing reliable estimates is the poor performance of field operations. Urgent measures should be taken by the States to address this problem. There should be strict supervision of fieldwork by higher-level revenue and agricultural officials and appropriate action taken against those whose performance is consistently bad. There should be direct interaction between the ICS staff and the higher level officials of revenue and agricultural departments to instill a better awareness of the importance of the programme.
+4.3.8 The immediate priority is to reduce the unacceptable level of non-sampling errors in the survey results. There should be adequate training of field staff every season. All field workers should have ready access to the experimental equipment and a serious view should be taken of anyone not using proper tools. There is scope for improving the equipment to make it more portable and easy to handle in the field.
+4.3.9 At present, several State agencies are assigned the work of crop cutting experiments, which cannot, perhaps be avoided altogether when a large number of experiments have to be conducted within a short period. Nevertheless, an effort should be made to reduce the diversity of agencies and utilise as far as possible the State agricultural and statistical agencies for better control of field operations.
+4.3.10 A Statistical Study may be made to examine whether the data collected in the ICS can be used for working out a correction or adjustment factor to be applied to official statistics of Crop Area to provide an alternative all-India estimate of crop area as a cross check on official statistics compiled from the States’ reports. If this is technically feasible, the design of the ICS can be modified and the scheme strengthened to generate such correction factors. The Commission appointed an Expert Group comprising representatives of ISI, IASRI and NSSO to look into this question. In the short time available the Expert Group could not examine the question of efficacy of the correction factor. After studying the report of the Expert Group, the Commission is of the view that, in view of the past experience of the Land Utilisation Surveys of the NSS, the modified objective of the ICS should be restricted to working out a correction factor and not the generation of independent estimates of crop area. Further statistical investigations of the problem will be required before redesigning ICS to meet the modified objective.
+4.3.11 The need for crop production estimates for small areas (C.D blocks, panchayats) has assumed urgency especially after the introduction of crop insurance. As noted earlier, expansion of the scale of crop cutting experiments to meet this need is almost impossible if NAIS is implemented throughout the country and covers many more crops than at present. An approach other than crop cutting experiments has to be sought, and the technique of “small area estimation” holds out a promising solution. There has been considerable development in the field of small area statistics. The IASRI is experimenting with this method to frame block and panchayat level estimates and pilot studies are in progress. It is important to pursue this programme until a satisfactory and tested methodology is available.
+4.3.12 The Commission, therefore, recommends that:
+In view of the importance of reliable estimates of crop production, the States should take all necessary measures to ensure that the crop cutting surveys under the General Crop Estimation Survey (GCES) are carried out strictly according to the prescribed programme.
+Efforts should be made to reduce the diversity of agencies involved in the fieldwork of crop cutting experiments and use as far as possible agricultural and statistical personnel for better control of field operations.
+A statistical study should be carried out to explore the feasibility of using the ICS data for working out a correction or adjustment factor to be applied to official statistics of crop area to generate alternative estimates of the same. Given the past experience of the Land Utilisation Surveys of the NSS and the controversies they created, the Commission is of the view that the objective of redesigning of the ICS, at present, should be restricted to working out a correction factor.
+The two series of experiments conducted under the National Agricultural Insurance Scheme (NAIS) and the General Crop Estimation Survey (GCES) should not be combined for deriving estimates of production as the objectives of the two series are different and their merger will affect the quality of general crop estimates.
+Crop estimates below the level of district are required to meet several needs including those of the National Agricultural Insurance Scheme (NAIS). Special studies should be taken up by the National Statistical Office to develop appropriate “small area estimation” techniques for this purpose.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Crop Forecasts
+URL: https://nsc.mospi.gov.in/44-crop-forecasts
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.4 Crop Forecasts
+Current Status
+4.4.1 Final estimates of crop production based on area through complete enumeration and yield rate through crop-cutting experiments become available much after the crop is harvested. However, the Government needs advance estimates of production for various decisions relating to pricing, distribution, export and import, etc. The Directorate of Economics & Statistics, Ministry of Agriculture (DESMOA) releases advance estimates of crop area and production through periodical forecasts in respect of principal food and non-food crops (food grains, oil seeds, sugarcane, fibres, etc.), which account for nearly 87 per cent of agricultural output. Four forecasts are issued, the first in the middle of September, the second in January, the third towards the end of March and the fourth by the end of May.
+4.4.2 The first forecast relating to the kharif crops is mostly based on reports prepared by the States mainly guided by the visual observation of field officials. The second forecast covering both the kharif and rabi crops takes into account additional information obtained from various sources including agricultural inputs, incidence of pests and diseases, and weekly reports of State departments of agriculture regarding area coverage, conditions of standing crops, etc. Results of Remote Sensing data are also considered at this stage. In the third forecast, the earlier advance estimates of both the kharif and rabi seasons are firmed up, again taking into account information received from sources such as Market Intelligence Units, Meteorological Department and the Crop Weather Watch Group (CWWG). The fourth forecast is based on firm figures supplied by State Agricultural Statistics Authorities (SASAs) who are by then in a position to obtain fairly dependable estimates of yield rates through GCES. In addition to the four forecasts, the DESMOA issues the “Final Estimates” of crop area and production in December. As a few States continue to revise their data on delayed receipt of information, the all-India crop statistics are brought out as “Fully Revised” in the next crop year in the following December.
+4.4.3 Recently, the Ministry of Agriculture has set up a National Crop Forecasting Centre (NCFC) with the object of examining the existing mechanism of building forecasts of principal crops and developing more objective techniques. The NCFC takes into account information on weather conditions, supply of agricultural inputs, pests, diseases and related aspects including the proceedings of CWWG in the formulation of scientific and objective forecasting methods to replace the present system. The work of the NCFC is still at a preliminary stage and it needs more statistical support to be able to develop appropriate models of forecasting.
+Deficiencies
+4.4.4 The present system of crop forecasts being based mostly on subjective appraisal at various levels does not reflect the ground situation correctly. This is specially the case with regard to the preliminary forecasts, which have to be fairly reliable for taking several policy decisions. There is need for more objective forecasting based on timely and detailed information on crop condition, meteorological parameters, water availability, crop damage, etc. The NCFC is still not in a position to develop a scientific procedure of forecasting using multi-dimensional models and assimilating the information received from various sources. The DESMOA is handicapped due to non-receipt of timely information from the States and it often has to prepare such forecasts based on incomplete data.
+4.4.5 Frequent changes in the production figures especially of food grains between one forecast and another, and the “final” and “fully revised” estimates cause confusion and doubt among the users. While releasing these figures, the DESMOA may indicate the reasons for the change.
+Conclusions and Recommendations
+4.4.6 The system of forecasting crop production in the country by the Ministry of Agriculture needs to be replaced as soon as possible by an objective method using appropriate statistical techniques. The recent establishment of the NCFC, which has been assigned the responsibility of streamlining and improving the quality of forecasting, should go a long way in accomplishing this objective. However, it needs additional professional support, comprising statisticians and multi-disciplinary team of experts to devise scientific techniques of crop forecasting.
+4.4.7 Remote Sensing technology can also provide a satisfactory means of developing reliable estimates of crop area and condition of the crop at various stages of growth for forecast purposes. The Space Application Centre (SAC) is already at an advanced stage of experimenting with the approach of Remote Sensing to estimate the area under principal crops through the scheme known as “Forecasting Agricultural output using Space, Agro-meteorology and Land based observations” (FASAL). Incidentally, this will form an important input in the forecasting methodology to be developed by NCFC. The land-based observations should be used to measure quantitative changes in crop growth besides discriminating one crop from another.
+4.4.8 The Commission, therefore, recommends that:
+The Ministry of Agriculture and the National Crop Forecasting Centre (NCFC) should soon put in place an objective method of forecasting the production of crops.
+The National Crop Forecasting Centre (NCFC) should be adequately strengthened with professional statisticians and experts in other related fields.
+The programme of Forecasting Agricultural output using Space, Agro-meteorology and Land based observations (FASAL), which is experimenting the approach of Remote Sensing to estimate the area under principal crops should be actively pursued.
+The States should be assisted by the Centre in adopting the objective techniques to be developed by the National Crop Forecasting Centre (NCFC).
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Production of Horticultural Crops
+URL: https://nsc.mospi.gov.in/45-production-horticultural-crops
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.5 Production of Horticultural Crops
+Current Status
+4.5.1 There are two main sources that generate statistics of production of horticultural crops. The first is the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), which operates a Centrally sponsored scheme “Crop Estimation Survey on Fruits and Vegetables” in 11 States covering 7 fruit and 7 vegetable and spice crops for estimating area and production. The fruit crops covered are mango, banana, apple, citrus, grapes, pineapple and guava. The vegetable and spice crops are potato, onion, tomato, cabbage, cauliflower, ginger and turmeric. The survey, which is still in a “pilot” stage follows a stratified three-stage random sampling design in the case of fruit crops, with village, orchard and fruit bearing tree as the sampling units at the successive stages. The sample size is usually 150 to 200 sample villages in each major fruit-growing district, five orchards per sample village and four fruit bearing trees per orchard. The number and weight of fruits gathered from the sampled trees is observed and recorded, which form the basis for yield estimation. The survey approach in the case of vegetable crops is somewhat more complex due to special features of cultivation of these crops especially the short duration of the crop and the number of pickings required to record the harvested produce. The results of the DESMOA survey are published in its “Report and Database of Pilot Scheme on Major Fruits and Vegetables”.
+4.5.2 The second source of horticultural statistics is the National Horticultural Board (NHB), which compiles and publishes estimates of area, production and prices of all important fruit and vegetable crops based on reports furnished by the State Directorates of Horticulture and Agriculture. The methodology followed by NHB for estimating area and production has not been clearly spelt out. These estimates are apparently based on the informed assessment of local level officials dealing with horticulture and the reports of market arrivals in major wholesale fruit and vegetable markets.
+Deficiencies
+4.5.3 The production estimates of fruits and vegetables available from the DESMOA pilot survey are based on sound technical methodology. However, the survey procedures are complex, time consuming and rather difficult to implement in practice. Further, the survey is limited to 11 States and its extension to the remaining States will take a long time due to the fact that many of them do not possess the necessary staff resources to carry out the fieldwork. Adoption of this methodology on a nation-wide scale is a remote possibility.
+4.5.4 The estimates furnished by the NHB relate to the entire country but they are of doubtful reliability being essentially based on subjective reports received from the ground-level staff. There is, in fact, considerable divergence between the NHB and the DESMOA estimates for the States and the crops covered (see Annexe 4.2).
+4.5.5 Neither NHB nor DESMOA provide estimates of production of crops such as mushroom, herbs and floriculture that are of emerging commercial importance.
+Conclusions and Recommendations
+4.5.6 The methodology used in the DESMOA survey for estimation of production is complex, time consuming and not cost-effective. It is observed that the field staff does not always follow the procedures laid down for collection of data. It is obvious that an alternative and more feasible methodology needs to be developed for estimating production of horticultural crops. Such an approach may consider the possibility of using the flow of data from sources concerned with horticultural crops such as wholesale markets, growers associations, fruit and vegetable processing plants, export trade, etc. in order to develop a suitable model for estimation. Special studies need to be carried out in this connection, which may be entrusted to a team comprising representatives of the Indian Agricultural Statistics Research Institute (IASRI), DESMOA, NSSO (FOD) and one or two major States growing horticultural crops.
+4.5.7 The Commission recommends that:
+The methodology adopted in the pilot scheme of “Crop Estimation Survey on Fruits and Vegetables” should be reviewed and an alternative methodology for estimating the production of horticultural crops should be developed taking into account information flowing from all sources including market arrivals, exports and growers associations. Special studies required to establish the feasibility of such a methodology should be taken up by a team comprising representatives from Indian Agricultural Statistics Research Institute (IASRI), Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), Field Operations Division of National Sample Survey Organisation (NSSO (FOD)) and from one or two major States growing horticultural crops. The alternative methodology should be tried out on a pilot basis before actually implementing it on a large scale.
+A suitable methodology for estimating the production of crops such as mushroom, herbs and floriculture needs to be developed and this should be entrusted to the expert team comprising representatives from Indian Agricultural Statistics Research Institute (IASRI), Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), Field Operations Division of National Sample Survey Organisation (NSSO (FOD)) and from one or two major States growing these crops.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Land Use
+URL: https://nsc.mospi.gov.in/47-land-use
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.7 Land Use
+Current Status
+4.7.1 Statistics of land use are compiled from the village land records maintained by the patwari. The information is available according to each survey number and recorded under nine categories: (a) Forests, (b) Area under Non-Agricultural use, (c) Barren and Uncultured Land, (d) Permanent Pastures and other Grazing Land, (e) Miscellaneous Tree Crops, (f) Culturable Waste Land, (g) Fallow Land other than Current Fallows, (h) Current Fallows, and (i) Net Area Sown. The details of each category along with its definition may be seen in the Annexe 4.5.
+4.7.2 Land use statistics are also being collected through nationwide land use or cover mapping by the National Remote Sensing Agency (NRSA) according to a 22-fold classification, the definition of each category is given in the Annexe 4.6. The categories are much more detailed and provide useful information for land development programmes. However, these details are still not available at the local levels of block and panchayat.
+Deficiencies
+4.7.3 The nine-fold classification of land use based on village records is not adequate and does not, for instance, provide information on such characteristics as social forestry, marshy and water logged land, built-up land, etc. which are important for local development plans. On the other hand, it is out of question to introduce the 22-fold classification in the village records. The patwari cannot, in most cases, identify the characteristics of various categories not to speak of the heavy burden this work imposes.
+Conclusions and Recommendations
+4.7.4 It is suggested that the nine-fold classification may be slightly enlarged to cover two or three categories of land use which are of common interest to the Centre and States, and which can be easily identified by the patwari through visual observation. Such addition increases his workload only marginally. The categories to be added may be decided by joint consultation between the Centre and the States. Incidentally, there was a consensus in the Conference of Central and State Statistical Organisations on the addition of social forestry, marshy and water logged land, and land under still waters.
+4.7.5 It is desirable to consider in this context the question of rationalisation and simplification of the Village Crop Register (Khasra Register) and other records maintained by patwari. The records have remained almost the same since the mid 50s. There are also marked differences in the content and format of the records among the States. Cropping practices have also changed over time and new crops especially of short duration are sown and harvested. The list of crops covered by the Village Crop Abstract (Jinswar) needs a review that may also result in some changes in the manual of instructions for the girdawari. The Commission appointed an Expert to suggest changes after undertaking a review of the system of land records in different parts of the country. On examination of the Report of the Expert, the Commission is of the view that the system of land records being different in different States, it would be appropriate if the State Governments review the systems by appointing experts in the field.
+4.7.6 Computerisation of land records is another major effort in progress to modernise the land record system. Under this programme, plot-wise details of ownership are to be maintained in the computer and periodically updated so that each owner is able to obtain readily his ownership record. Incidentally, computerisation reduces the workload of the patwari to the extent that he does not have to record the permanent columns of the Khasra Register. Many States have reported substantial progress in implementing the programme. It should be ensured that this is completed expeditiously.
+4.7.7 The Commission, therefore, recommends that:
+The nine-fold classification of land use should be slightly enlarged to cover two or three more categories such as social forestry, marshy and water logged land, and land under still waters, which are of common interest to the centre and States, and which can easily be identified by the patwari through visual observation.
+State Governments should ensure that computerisation of land records is completed expeditiously.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Irrigation Statistics
+URL: https://nsc.mospi.gov.in/48-irrigation-statistics
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.8 Irrigation Statistics
+Current Status
+4.8.1 Irrigation statistics mainly relate to data on area irrigated by different sources and under different crops. The principal sources of irrigation statistics are the crop statistics compiled by the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA), and the publications of the Ministry of Water Resources. Besides these, some data on irrigated area are available from the administrative reports of State Government departments and the Agricultural Census. Rainfall and weather data are available from the India Meteorological Department (IMD).
+4.8.2 In the temporarily settled States, irrigation statistics are compiled from the village girdawari, whereas the same are estimated on the basis of sample surveys in respect of the permanently settled States of Kerala, Orissa and West Bengal. These statistics relate to net or gross irrigated area by sources (canals, tanks, tube well, etc.) and also area under each crop. The data are collated and published by the DESMOA with a time lag of three to four years.
+4.8.3 Groundwater is the principal source for minor irrigation and the Central Ground Water Board (CGWB) is responsible for generation and dissemination of statistics on ground water which inter-alia include statistics on minor irrigation. The Minor Irrigation Division of the Ministry of Water Resources also compiles information on minor irrigation at the national level on the basis of statistics furnished by nodal offices designated for the purpose in individual States. The Command Area Development Division of the Ministry compiles and disseminates data on Command Area Development Programme (CADP) furnished by State Command Area Development Authorities (CADAs).
+4.8.4 Lack of a sound database for the minor irrigation sector has made it necessary to conduct a periodical Census of Minor Irrigation works throughout the country under the scheme of Rationalisation of Minor Irrigation Statistics (RMIS). The primary fieldwork of the census is entrusted to the patwari and the village level worker (of C.D. block) under the supervision of block-level officials who also exercise a five per cent sample check in randomly selected villages. The results of the sample check are used to apply a correction factor to the main census data. Validation of data takes place at the district level and further compilation and tabulation at the State level with the help of software provided by the National Informatics Centre. The First census was conducted with reference year 1986-87 and the all-India Census Report was published in November 1993. The Second census with reference year 1993-94 has been completed and the report released recently. The Third census is being launched with reference period 2000-2001. A sample survey with reference year 1998-99 to assess the status of minor irrigation schemes, in use at the time of Second census is also being conducted.
+4.8.5 The Central Water Commission (CWC), which is the nodal agency for water resource development in the country, is responsible for statistics of water resources pertaining to major and medium irrigation projects. The River Management Wing of CWC is engaged in hydrological data collection relating to all the important river systems in the country with the help of as many as 877 hydrological observation sites. The Information System Organisation (ISO) in the CWC is involved in planning, implementing, monitoring and coordinating all aspects of activities associated with information-gathering activities, analytical studies and computerisation.
+4.8.6 Statistics compiled by CWC on major and medium irrigation projects and those compiled by the Minor Irrigation Division, especially the irrigation potential created and actually being utilised are the alternative sources of estimates of total irrigated area.
+Deficiencies
+4.8.7 There is a large variation between the statistics of “area irrigated” published by the DESMOA and the “irrigation potential utilised” published by the Ministry of Water Resources (see Annexe 4.7). Both data series are available with a considerable time lag.
+4.8.8 The existing system of generation and dissemination of data in respect of major and medium irrigation projects does not permit real time monitoring of inflows of water and its utilisation through canals and the distributory system. Reluctance on the part of the States to furnish the data in view of their vested interest in the sharing of water is another stumbling block.
+4.8.9 A large volume of useful data is reported to be available with the CWC on various aspects of irrigation without any statistical analysis. These data need to be put to use by the statistical machinery for better management of water resources.
+Conclusions and Recommendations
+4.8.10 In view of the wide variation between the data on irrigated area provided by the DESMOA and the Ministry of Water Resources, it becomes essential that State Governments make a special effort to minimise the divergence through appropriate interaction among the departments concerned. This is better attempted at the local level (panchayat or village).
+4.8.11 It is desirable to have statistics of irrigated area with cross-classification by source of irrigation (major, medium and minor) and by individual crop. As this involves laborious tabulation at the village level, this may be done once in five years as part of the Agricultural Census.
+4.8.12 In order to reduce the time lag between the generation and dissemination of data in respect of irrigation projects for real time monitoring of water resources, and proper and efficient water management, it is necessary that the major and medium irrigation projects are provided with computer facilities as well as appropriate Geographical Information Systems (GIS).
+4.8.13 Involvement of the State Directorates of Economics and Statistics (DESs) in all State-level programmes of irrigation statistics and establishing direct linkage between the State DESs and the nodal Central Government agencies will help speedy data flow. The State DESs need to be strengthened for this purpose. The CWC has a major role in the production of water resources statistics. It is desirable to strengthen the network of CWC field offices by creating statistical monitoring and evaluation cells in them with trained statistical personnel. In order to oversee and guide the development and management of statistics of water resources, the Central Statistical Organisation (CSO) should designate a senior-level officer to interact with Central and State irrigation agencies.
+4.8.14 The divergence between the two series of irrigated area published by the Ministry of Agriculture and Ministry of Water Resources is inevitable due to different concepts and definitions used by them. The data users should be made aware of these differences for proper understanding and analysis of data.
+4.8.15 The Commission, therefore, recommends that:
+In view of wide variation between the irrigated area generated by the Ministry of Agriculture and the Ministry of Water Resources, the State Governments should make an attempt to explain and reduce the divergence, to the extent possible, through mutual consultation between the two agencies engaged in the data collection at the local level.
+The State Directorates of Economics and Statistics (DESs) should be made the nodal agencies in respect of irrigation statistics and they should establish direct links with the State and Central agencies concerned to secure speedy data flow.
+Statistical monitoring and evaluation cells with trained statistical personnel should be created in the field offices of the Central Water Commission (CWC) in order to generate a variety of statistics relating to water use.
+The Central Statistical Organisation (CSO) should designate a senior level officer to interact with the Central and State irrigation authorities in order to promote an efficient system of water resources statistics and oversee its activities.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Agricultural Prices
+URL: https://nsc.mospi.gov.in/410-agricultural-prices
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.10 AGRICULTURAL PRICES
+Current Status
+4.10.1 The Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA) is responsible for the collection, compilation and dissemination of the price data of agricultural commodities. The price data are collected in terms of (a) weekly and daily wholesales prices, (b) retail prices of essential commodities, and (c) farm harvest prices.
+4.10.2 Weekly wholesale prices cover 140 agricultural commodities from 620 markets. The data are collected by price reporters appointed by the State Governments or Agricultural Marketing Committees and forwarded to the State Directorates of Economics and Statistics (DESs). Daily wholesale prices cover 12 commodities (rice, paddy, wheat, jowar, bajra, ragi, maize, barley, gram, sugar, gur and khandsari) from 617 market centres. On receipt of the prices from various State agencies, the Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA) forwards the same to the Economic Adviser, Ministry of Commerce and Industry for monitoring wholesale prices. Wholesale prices of certain important cereals, gram and sugar are also sent to the Cabinet Secretary on alternate days for direct monitoring.
+4.10.3 Retail prices of essential commodities are collected on a weekly basis from 83 market centres in respect of 88 commodities (49 food and 39 non-food) by the staff of the State Market Intelligence Units, State Directorates of Economics and Statistics (DESs) and State Department of Food and Civil Supplies. Flow of data from these agencies is not considered satisfactory.
+4.10.4 Farm Harvest Prices are collected by the field staff of the State revenue departments for 31 commodities at the end of each crop season and published by the DESMOA. It brings out a periodical publication entitled, Farm Harvest Prices of Principal Crops in India.
+Deficiencies
+4.10.5 Wholesale prices data are received in the DESMOA mostly through postal mail, which entails delay. Data on retail prices of the essential commodities are received with a time lag of about five to six weeks and the response rate is only of the order of 60 per cent. Supply of data through post is stated to be the reason for delay. The State Governments generally use part time reporters who are not fully conversant with the connotations of the different terms used in price data collection and they do not pay adequate attention to the reporting work. The main deficiency in the collection of price data arises due to large non-response. There is no coordination among the State agencies concerned nor an adequate supervisory check over price collection.
+Conclusions and Recommendations
+4.10.6 Wholesale prices are primarily used to monitor the weekly price movements. It is, therefore, essential to have quality data on prices by ensuring representative price collection centres and commodity-wise quotations of prices. For this purpose, a well-documented manual of instructions on collection of prices is required. The price collectors should be given thorough training on concepts, definitions and the methods of data collection. The training courses should be repeated periodically.
+4.10.7 A mechanism to ensure timely data flow is an immediate need. For this, the latest tools of communication technology like e-mail should be availed of. Further, the system should ensure simultaneous data flow from lower levels to the State as well as to the Centre.
+4.10.8 The State agencies at the district level and below should follow up cases of chronic non-response. The quality of data should be determined on the basis of systematic analysis of the price data both by the Centre and the States. Workshops and training courses should be an integral part of quality improvement.
+4.10.9 The number of essential commodities should be reduced to an absolute minimum, especially the non-food crops, in consultation with Ministry of Consumer Affairs and Cabinet Committee on Prices. The centres of price collection should, as far as possible, be the same for the essential commodities as for those of wholesale prices.
+4.10.10 The Commission recommends that:
+The Ministry of Agriculture should prepare a well-documented manual of instructions on collection of wholesale prices of agricultural commodities.
+The agricultural price collectors should be given thorough training in the concepts, definitions and the methods of data collection, and the training courses should be repeated periodically.
+Workshops and training courses should be made an integral part of quality improvement. The quality of data should be determined on the basis of systematic analysis of the price data of agricultural commodities both by the Centre and the States.
+Latest tools of communication technology like e-mail should be availed of to ensure timely data flow of agricultural prices.
+A system should be developed to secure a simultaneous data flow of agricultural prices from lower levels to the State as well as the Centre.
+The State agencies at the district level and below should follow up cases of chronic non-response relating to collection of data on agricultural prices.
+The number of essential commodities for which agricultural prices are collected should be reduced to an absolute minimum, especially the non-food crops, in consultation with Ministry of Consumer Affairs and Cabinet Committee on Prices.
+The centres of agricultural price collection should, as far as possible, be the same for the essential commodities as those for wholesale prices.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Fisheries Statistics
+URL: https://nsc.mospi.gov.in/416-fisheries-statistics
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.16 FISHERIES STATISTICS
+Current Status
+4.16.1 Fisheries of India can be broadly classified into two types namely, marine fisheries and inland fisheries. The Fisheries Statistics Section of the Department of Animal Husbandry and Dairying in the Ministry of Agriculture is in charge of compiling the data relating to this sector. At present data on items like fish production, prawn production, fish seed production, disposal of fish catch, preserved and processed items and aquaculture are being collected from State Governments.
+4.16.2 A multistage sample survey is used to estimate the fish production from the marine sector. The survey design developed by the Indian Agricultural Statistics Research Institute (IASRI) and the Central Marine Fisheries Research Institute (CMFRI) consists of sampling of landing sites of the fishing craft as well as sampling over time of the landings. Data on deep-sea fishing are obtained through reports required to be furnished by trawlers and other deep-sea fishing vessels.
+4.16.3 So far as inland fisheries are concerned, there were several attempts to develop suitable sampling techniques for estimation of catch since 1955, but they have remained inconclusive. The Central Inland Fisheries Research Institute (CIFRI), Barrakpore lately devised a methodology for collection of data relating to some important still water areas. This involves dividing water sources into two categories namely, fresh water and brackish water bodies each with a distinct ecology, and classifying them further into three groups according to the level of production. Different sampling methods are adopted for assessment of fish production in each group. There is still a large data gap in coverage not only geographically but also in terms of several sources of inland fisheries such as rivers, canals, etc.
+Deficiencies
+4.16.4 As regards marine fisheries statistics, the sample methodology in use is considered to be satisfactory. There is, however, a need for periodic review of sample size, stratification and intensity of data collection in view of the changes in the pattern of fish landings. There are also problems in the flow of data from States and consequently much delay in the compilation of all-India statistics. As far as the deep-sea sector is concerned, though only a small number of licensed vessels are in operation, the data on fish catch do not flow in a regular manner. There is a need to put in place a proper mechanism of reporting for this purpose.
+4.16.5 The data on fish production from the inland sector are collected by the State Governments. It is noticed that the resources required for regular data collection are quite large and the cost incurred is not commensurate with the actual volume of fish production. Inland fisheries pose several problems due to the vast and diverse nature of water sources and it is necessary to develop a cost-effective methodology. IASRI is presently engaged in some pilot studies in this regard but more concerted effort is urgently called for.
+4.16.6 The data on fish production from aqua culture, supplied by the States, similarly suffer from poor quality and become available with considerable time lag. The types of culturing methods are not reflected in the data.
+4.16.7 The data on fisherman population, fishing craft and gear are available from both the State Governments and the Livestock Census, while data on workers engaged in fishing are also available from the population census. However, the data from these sources are not comparable due to differences in concepts and definitions and their application across States.
+4.16.8 There is an apparent inconsistency between the value of the output and the export earnings, the latter being much higher. An exploratory study is required to reconcile the discrepancy.
+Conclusions and Recommendations
+4.16.9 It is observed that the present system is operating satisfactorily in the case of marine fisheries but a lot still needs to be done to evolve a suitable methodology with regard to inland fisheries. In the marine sector, there is a need to impart regular, training to field staff and impose adequate supervision to ensure quality of data. Use of modern tools of Information Technology for data communication and storage will improve the quality and timeliness of fisheries statistics. Since the CIFRI and the IASRI are involved in the development of sampling methodology for inland fisheries, the Commission considers that these institutes should be properly equipped to develop an alternative methodology. The alternative approach should also consider the possibility of undertaking enquiries of fishermen households wherever there is a large concentration of fishing especially along major riverbanks.
+4.16.10 The Commission recommends that:
+The survey design for estimating production of marine fisheries should be modified taking into account the current distribution of landing sites and the volume of catch at different sites. The field staff engaged in collection of data should be imparted regular training and their work should be adequately supervised.
+The survey methodology for estimating production of inland fisheries especially with regard to running water sources (rivers and canals) should receive urgent attention and the Indian Agricultural Statistics Research Institute (IASRI) along with the Central Inland Fisheries Research Institute (CIFRI) should be provided with adequate support to develop this programme on a priority basis.
+The States should improve the recording of area under still water by appropriate modification of land use statistics.
+The discrepancies between the two sources of data namely, Livestock Census and State reports with regard to data on fishermen, fishing craft and gear should be reconciled by adoption of uniform concepts and definitions and review of these statistics at the district and State levels.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
+
+SECTION: Forestry Statistics
+URL: https://nsc.mospi.gov.in/417-forestry-statistics
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.17 FORESTRY STATISTICS
+Current Status
+4.17.1 Reliable forestry statistics are required for planning, policy-making, analysis and decision-making on forestry investment and development programmes. These statistics are collected mainly as a by-product of administrative reports of the State Forest Departments. On the recommendation of the National Commission on Agriculture (1976), the Forest Survey of India (FSI) was created in 1981 with the objective of monitoring the forest resources at a macro level, storing and retrieving forestry related data, designing methodology for forest surveys, etc. Besides the FSI, the Indian Council of Forestry Research and Education (ICFRE) is mandated to collect, collate and compile primary and secondary data generated by the State Forest Departments and various Central ministries. The data on the forestry are obtained through a set of periodical reports (45 in number) furnished by the State Forest Departments and other concerned agencies. In addition to details of forest area, the reports provide information on forest products (wood and non-wood), forest land under cultivation, and grazing land, etc.
+4.17.2 Since 1987, the FSI has begun using Remote Sensing (RS) technology to collect data on forest cover under three broad classes (dense forest, open forest and mangroves) on a country-wide scale through a biennial survey. The latest survey (October-December, 1998) used satellite data having a resolution of 23.5 metres with digital image processing. Introduction of digital interpretation has helped in reducing the time lag in the availability of the area estimates to just a few months after the completion of the survey.
+4.17.3 The Directorate of Economics and Statistics, Ministry of Agriculture (DESMOA) also publishes statistics of area under forests as part of Land Use Statistics according to the definition adopted in the nine-fold classification of land. This includes all land categorised as forests under any legal enactment dealing with the forests or administered as forests whether State or private owned, whether wooded or maintained as potential forest land.
+Deficiencies
+4.17.4 The main drawback in the compilation of forestry statistics (as in the case of several other sectors) is the inordinate delay in the availability of data. Except the area under forest cover now being assessed by the biennial RS satellite survey, all the other published data have long time lags. The FSI faces the problem of delayed transmission of data by the States, which tend to accord low priority to the reporting work. Nearly half the States do not furnish the statistics in time, which delays the national compilation. The latest estimates of forest area based on Land Use Statistics pertain to 1996-97.
+4.17.5 The present contribution of the forest sector to the GDP is considered as an underestimate as it does not take into account several important items such as head loads of fire wood, wood used for power generation, eco-tourism, etc.
+4.17.6 There is a large discrepancy between the area under forest cover as published by FSI and by DESMOA mainly due to the differences in the concepts and definitions followed by two agencies.
+Conclusions and Recommendations
+4.17.7 Forest area statistics are generated through two sources, the FSI and DESMOA, each using different sets of concepts and definitions resulting thereby in a wide divergence between the two estimates. It is desirable to reconcile these differences to the extent possible, which can be attempted only at the micro level. It is necessary to have the FSI survey data at the village level for this purpose.
+4.17.8 Early measures are required to cover all forest products in the State reports in order to improve the GDP estimates of the forest sectors. It is reported that a Working Group set up by the FSI is presently examining this question. It is expected that its recommendation, when implemented, will improve the estimates of the share of forestry and logging sectors in the GDP.
+4.17.9 To obviate delay in the transmission and to reduce the time lag in the availability of forestry statistics, it is desirable to set up statistical units under the State Conservators of Forests to oversee collection and compilation of forest statistics and make use of latest tools of Information and Communication Technology for storage, retrieval and rapid transmission of data.
+4.17.10 The Commission recommends that:
+Remote Sensing techniques should be extensively used to improve and develop forestry statistics.
+The State Forest Departments should be adequately supported by the establishment of appropriate statistical units to oversee the collection and compilation of forestry statistics from diverse sources on forest products including timber and non-timber forest products.
+Arrangements should be made for storage and speedy transmission of forestry data through Information Technology devices.
+In view of the unavoidable nature of the divergence between statistics from the two sources – land records and State Forest Departments – because of different coverage and concepts, the two series should continue to exist; but the reasons for divergence should be clearly indicated to help data users in interpreting the forestry statistics.
+A Statistics Division in the Ministry of Environment and Forests with adequate statistical manpower should be created for rationalisation and development of proper database on forestry statistics.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

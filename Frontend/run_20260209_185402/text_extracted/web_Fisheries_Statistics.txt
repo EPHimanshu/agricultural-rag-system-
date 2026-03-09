@@ -1,0 +1,69 @@
+SECTION: Fisheries Statistics
+URL: https://nsc.mospi.gov.in/416-fisheries-statistics
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.16 FISHERIES STATISTICS
+Current Status
+4.16.1 Fisheries of India can be broadly classified into two types namely, marine fisheries and inland fisheries. The Fisheries Statistics Section of the Department of Animal Husbandry and Dairying in the Ministry of Agriculture is in charge of compiling the data relating to this sector. At present data on items like fish production, prawn production, fish seed production, disposal of fish catch, preserved and processed items and aquaculture are being collected from State Governments.
+4.16.2 A multistage sample survey is used to estimate the fish production from the marine sector. The survey design developed by the Indian Agricultural Statistics Research Institute (IASRI) and the Central Marine Fisheries Research Institute (CMFRI) consists of sampling of landing sites of the fishing craft as well as sampling over time of the landings. Data on deep-sea fishing are obtained through reports required to be furnished by trawlers and other deep-sea fishing vessels.
+4.16.3 So far as inland fisheries are concerned, there were several attempts to develop suitable sampling techniques for estimation of catch since 1955, but they have remained inconclusive. The Central Inland Fisheries Research Institute (CIFRI), Barrakpore lately devised a methodology for collection of data relating to some important still water areas. This involves dividing water sources into two categories namely, fresh water and brackish water bodies each with a distinct ecology, and classifying them further into three groups according to the level of production. Different sampling methods are adopted for assessment of fish production in each group. There is still a large data gap in coverage not only geographically but also in terms of several sources of inland fisheries such as rivers, canals, etc.
+Deficiencies
+4.16.4 As regards marine fisheries statistics, the sample methodology in use is considered to be satisfactory. There is, however, a need for periodic review of sample size, stratification and intensity of data collection in view of the changes in the pattern of fish landings. There are also problems in the flow of data from States and consequently much delay in the compilation of all-India statistics. As far as the deep-sea sector is concerned, though only a small number of licensed vessels are in operation, the data on fish catch do not flow in a regular manner. There is a need to put in place a proper mechanism of reporting for this purpose.
+4.16.5 The data on fish production from the inland sector are collected by the State Governments. It is noticed that the resources required for regular data collection are quite large and the cost incurred is not commensurate with the actual volume of fish production. Inland fisheries pose several problems due to the vast and diverse nature of water sources and it is necessary to develop a cost-effective methodology. IASRI is presently engaged in some pilot studies in this regard but more concerted effort is urgently called for.
+4.16.6 The data on fish production from aqua culture, supplied by the States, similarly suffer from poor quality and become available with considerable time lag. The types of culturing methods are not reflected in the data.
+4.16.7 The data on fisherman population, fishing craft and gear are available from both the State Governments and the Livestock Census, while data on workers engaged in fishing are also available from the population census. However, the data from these sources are not comparable due to differences in concepts and definitions and their application across States.
+4.16.8 There is an apparent inconsistency between the value of the output and the export earnings, the latter being much higher. An exploratory study is required to reconcile the discrepancy.
+Conclusions and Recommendations
+4.16.9 It is observed that the present system is operating satisfactorily in the case of marine fisheries but a lot still needs to be done to evolve a suitable methodology with regard to inland fisheries. In the marine sector, there is a need to impart regular, training to field staff and impose adequate supervision to ensure quality of data. Use of modern tools of Information Technology for data communication and storage will improve the quality and timeliness of fisheries statistics. Since the CIFRI and the IASRI are involved in the development of sampling methodology for inland fisheries, the Commission considers that these institutes should be properly equipped to develop an alternative methodology. The alternative approach should also consider the possibility of undertaking enquiries of fishermen households wherever there is a large concentration of fishing especially along major riverbanks.
+4.16.10 The Commission recommends that:
+The survey design for estimating production of marine fisheries should be modified taking into account the current distribution of landing sites and the volume of catch at different sites. The field staff engaged in collection of data should be imparted regular training and their work should be adequately supervised.
+The survey methodology for estimating production of inland fisheries especially with regard to running water sources (rivers and canals) should receive urgent attention and the Indian Agricultural Statistics Research Institute (IASRI) along with the Central Inland Fisheries Research Institute (CIFRI) should be provided with adequate support to develop this programme on a priority basis.
+The States should improve the recording of area under still water by appropriate modification of land use statistics.
+The discrepancies between the two sources of data namely, Livestock Census and State reports with regard to data on fishermen, fishing craft and gear should be reconciled by adoption of uniform concepts and definitions and review of these statistics at the district and State levels.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.

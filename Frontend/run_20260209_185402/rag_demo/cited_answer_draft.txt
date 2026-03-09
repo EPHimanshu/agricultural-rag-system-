@@ -1,0 +1,16 @@
+AgriGenius - Retrieved Evidence Draft
+
+User Query: What is Minimum Support Price scheme and how does it support farmers?
+
+Top Retrieved Evidence:
+
+[1] file_name=Farming_Schemes_pdf.txt | source_name=Farming_Schemes | source_type=pdf | chunk_index=9 | chunk_id=pdf_Farming_Schemes_0009_000009
+support prices are a guarantee price for their produce from the Government. The major objectives are to support the farmers from distress sales and to procure food grains for public distribution. In case the market price for the commodity falls below the announced minimum price due to bumper production and glut in the market, government agencies purchase the entire quantity offered by the farmers at the announced minimum price. Salient features : If there is a fall in the prices of the crops, after a bumper harvest, the government purchases at the MSP and this is the reason that the priced cannot go below MSP. So this directly helps the farmers. The government decided the support prices for
+
+[2] file_name=Farming_Schemes_pdf.txt | source_name=Farming_Schemes | source_type=pdf | chunk_index=10 | chunk_id=pdf_Farming_Schemes_0010_000010
+bumper production years. The minimum support prices are a guarantee price for their produce from the Government. The MSP is calculated and recommended by the CACP. For the calculation of the MSP, the CACP takes into account a comprehensive view of the entire structure of the economy of a particular commodity or group of commodities. Other Factors include cost of production, changes in input prices, input -output price parity, trends in market prices, demand and supply, inter -crop price parity, effect on industrial cost structure, effect on cost of living, effect on general price level, international price situation, parity between prices paid and prices received by the farmers and effect on
+
+[3] file_name=Farming_Schemes_pdf.txt | source_name=Farming_Schemes | source_type=pdf | chunk_index=8 | chunk_id=pdf_Farming_Schemes_0008_000008
+Support Price Scheme Type of scheme : Central Sector Scheme The Minimum Support Prices were announced by the Government of India for the first time in 1966 -67 for Wheat in the wake of the Green Revolution and extended harvest, to save the farmers from depleting profits. Since then, the MSP regime has been expanded to many crops. Minimum Support Price is the price at which government purchases crops from the farmers, whatever may be the price for the crops. The MSP is announced by the Government of India for 26 crops currently at the beginning of each season viz. Rabi and Kharif. They are as follows. • Cereals (7) - paddy, wheat, barley, jowar, bajra, maize and ragi • Pulses (5) - gram, arha
+
+Note: This draft is generated directly from retrieved evidence chunks for traceable, grounded response construction.

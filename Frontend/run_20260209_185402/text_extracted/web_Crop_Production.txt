@@ -1,0 +1,72 @@
+SECTION: Crop Production
+URL: https://nsc.mospi.gov.in/43-crop-production
+
+NSC
+SKIP TO MAIN CONTENT
+|
+SCREEN READER ACCESS
+|
+Accessibility Controls
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+About us
+Documents
+RTI
+Gallery
+Contact Us
+Home
+/
+Report of Dr. Rangarajan Commission
+Documents
+Reports
+4.3 Crop Production
+Current Status
+4.3.1 Estimates of crop production are obtained by multiplying the area under crop and the yield rate. The yield rate estimates are based on scientifically designed crop cutting experiments conducted under the General Crop Estimation Survey (GCES). The GCES covers around 68 crops (52 food and 16 non-food) in 22 States and 4 Union Territories. Around 5,00,000 experiments are conducted every year with the help of State revenue and agricultural staff of a rank higher than the primary field staff of the departments. The survey design adopted is that of a stratified three stage random sampling with tehsil or taluka as the stratum, a village as the first stage unit, a field growing the specified crop as the second stage unit and a plot, usually 5m x 5m, as the ultimate unit. The experiment consists of marking the plot and harvesting and weighing the produce from the plot. These weights form the basic data for yield estimation. The number of experiments and their distribution over the strata are made in a manner to be able to obtain the yield rate estimates with a fair degree of precision at the level of the State and each major crop-growing district. The field staff is periodically trained in the conduct of crop cutting experiments.
+4.3.2 The Improvement of Crop Statistics (ICS) scheme carries out a quality check on the field operations of GCES under which around 30,000 experiments are supervised by the ICS staff at the harvesting stage, one half by the Assistant Superintendents of the Field Operations Division (FOD) of NSSO and the remaining half by the staff of the State Agricultural Statistics Authority (SASA).
+Deficiencies
+4.3.3 The method of crop cutting experiments is objective and unbiased and if properly followed provides reliable estimates of yield rates. In practice, however, the field staff do not strictly adhere to the prescribed procedures and thereby the survey estimates are subject to a variety of non-sampling errors. The supervisory check by ICS staff reveals a number of such lapses.
+4.3.4 The review of ICS results referred to earlier (see Annexe 4.1) shows that the experiments in the GCES were conducted properly in only 80 per cent of the cases while the rest had one defect or the other. The defects mainly related to wrong selection of sample fields and location of experimental plots, and failure to use essential equipment such as proper weighing scales. The ICS and GCES yield estimates were seen to differ widely from each other, much more than what could be attributed to sampling errors. It is obvious that the GCES in many States is carried out perfunctorily unmindful of the serious consequences. The State departments of revenue and agriculture that are responsible for the surveys, do not seem to consider this programme important enough and there is little higher level supervision and control of field operations. The “High Level Coordination Committee (HLCC) on Agricultural Statistics” in the States is supposed to take remedial action and if it does so, it seems to have little impact on improving the situation.
+4.3.5 GCES carries out around 5,00,000 experiments every year; but these are not still adequate to provide usable estimates below the district level. With the introduction of National Agricultural Insurance Scheme (NAIS) in several States a need is felt for assessment of yields of insured crops at the level of tehsil or C.D. Block and even at the panchayat level. NAIS has, therefore, prescribed additional crop cutting experiments for this purpose at the rate of 16 per block or 8 per panchayat for each insured crop. This imposes an enormous burden on the field agency, increases considerably the non-sampling errors and results in further deterioration of the quality of work. Apart from non-feasibility of carrying out such a huge number of experiments, the recent decision of Government of India that the States should combine GCES and NAIS series of experiments and use them together for framing crop production estimates is fraught with serious consequences. The objectives of the two series are different and the NAIS series is likely to underestimate yield rates because of local pressure from insured farmers whose interest lies in depressing the crop output.
+4.3.6 Yet another deficiency in the production statistics is the divergence between the production figures available from different sources especially in respect of cash crops like cotton, oilseeds and horticultural crops.
+Conclusions and Recommendations
+4.3.7 The estimation of crop yields is based on sound and well-tested crop cutting experiment methodology. The main problem in producing reliable estimates is the poor performance of field operations. Urgent measures should be taken by the States to address this problem. There should be strict supervision of fieldwork by higher-level revenue and agricultural officials and appropriate action taken against those whose performance is consistently bad. There should be direct interaction between the ICS staff and the higher level officials of revenue and agricultural departments to instill a better awareness of the importance of the programme.
+4.3.8 The immediate priority is to reduce the unacceptable level of non-sampling errors in the survey results. There should be adequate training of field staff every season. All field workers should have ready access to the experimental equipment and a serious view should be taken of anyone not using proper tools. There is scope for improving the equipment to make it more portable and easy to handle in the field.
+4.3.9 At present, several State agencies are assigned the work of crop cutting experiments, which cannot, perhaps be avoided altogether when a large number of experiments have to be conducted within a short period. Nevertheless, an effort should be made to reduce the diversity of agencies and utilise as far as possible the State agricultural and statistical agencies for better control of field operations.
+4.3.10 A Statistical Study may be made to examine whether the data collected in the ICS can be used for working out a correction or adjustment factor to be applied to official statistics of Crop Area to provide an alternative all-India estimate of crop area as a cross check on official statistics compiled from the States’ reports. If this is technically feasible, the design of the ICS can be modified and the scheme strengthened to generate such correction factors. The Commission appointed an Expert Group comprising representatives of ISI, IASRI and NSSO to look into this question. In the short time available the Expert Group could not examine the question of efficacy of the correction factor. After studying the report of the Expert Group, the Commission is of the view that, in view of the past experience of the Land Utilisation Surveys of the NSS, the modified objective of the ICS should be restricted to working out a correction factor and not the generation of independent estimates of crop area. Further statistical investigations of the problem will be required before redesigning ICS to meet the modified objective.
+4.3.11 The need for crop production estimates for small areas (C.D blocks, panchayats) has assumed urgency especially after the introduction of crop insurance. As noted earlier, expansion of the scale of crop cutting experiments to meet this need is almost impossible if NAIS is implemented throughout the country and covers many more crops than at present. An approach other than crop cutting experiments has to be sought, and the technique of “small area estimation” holds out a promising solution. There has been considerable development in the field of small area statistics. The IASRI is experimenting with this method to frame block and panchayat level estimates and pilot studies are in progress. It is important to pursue this programme until a satisfactory and tested methodology is available.
+4.3.12 The Commission, therefore, recommends that:
+In view of the importance of reliable estimates of crop production, the States should take all necessary measures to ensure that the crop cutting surveys under the General Crop Estimation Survey (GCES) are carried out strictly according to the prescribed programme.
+Efforts should be made to reduce the diversity of agencies involved in the fieldwork of crop cutting experiments and use as far as possible agricultural and statistical personnel for better control of field operations.
+A statistical study should be carried out to explore the feasibility of using the ICS data for working out a correction or adjustment factor to be applied to official statistics of crop area to generate alternative estimates of the same. Given the past experience of the Land Utilisation Surveys of the NSS and the controversies they created, the Commission is of the view that the objective of redesigning of the ICS, at present, should be restricted to working out a correction factor.
+The two series of experiments conducted under the National Agricultural Insurance Scheme (NAIS) and the General Crop Estimation Survey (GCES) should not be combined for deriving estimates of production as the objectives of the two series are different and their merger will affect the quality of general crop estimates.
+Crop estimates below the level of district are required to meet several needs including those of the National Agricultural Insurance Scheme (NAIS). Special studies should be taken up by the National Statistical Office to develop appropriate “small area estimation” techniques for this purpose.
+USEFUL LINKS
+Website policy
+|
+Help
+|
+Disclaimer
+|
+Sitemap
+|
+MoSPI Website
+|
+eSankhyiki Website
+|
+Micro Data Website
+|
+Related links
+|
+Feedback
+|
+Archives
+Visitors: 1206
+SUBSCRIBE FOR UPDATES
+Contents of this website owned and managed by National Statistical Commission Secretariat, MoSPI
+Designed, Developed and Hosted by DIID, MoSPI
+Copyright© 2025 All Rights Reserved.
