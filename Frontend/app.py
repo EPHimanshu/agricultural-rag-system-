@@ -1,23 +1,18 @@
 import os
+from pathlib import Path
 import streamlit as st
 import chromadb
 from sentence_transformers import SentenceTransformer
 from llm_client import generate_grounded_answer, DEFAULT_MODEL
 
-st.set_page_config(
-    page_title="Agricultural Knowledge Retrieval System with RAG",
-    layout="wide"
-)
+st.set_page_config(page_title="🌾 Agricultural Knowledge Retrieval System with RAG", layout="wide")
 
 RUN_ID = "20260209_185402"
+COLLECTION_NAME = f"agrigenius_{RUN_ID}"
 
-# Use a neutral collection name going forward.
-# IMPORTANT:
-# This must match the collection name inside your Chroma DB.
-COLLECTION_NAME = os.getenv("COLLECTION_NAME", f"agrigenius{RUN_ID}")
-
-CHROMA_PATH = "chroma_db"
-EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
+# Always resolve path relative to this file
+BASE_DIR = Path(__file__).resolve().parent
+CHROMA_PATH = str(BASE_DIR / "chroma_db")
 
 st.title("🌾 Agricultural Knowledge Retrieval System with RAG")
 st.subheader("Shruti Project")
@@ -28,26 +23,26 @@ st.write(
 )
 
 @st.cache_resource
-def load_embedding_model():
-    return SentenceTransformer(EMBED_MODEL_NAME)
+def load_model():
+    return SentenceTransformer("all-MiniLM-L6-v2")
 
 @st.cache_resource
-def load_vector_db():
+def load_vectordb():
     client = chromadb.PersistentClient(path=CHROMA_PATH)
     return client.get_collection(name=COLLECTION_NAME)
 
-model = load_embedding_model()
+model = load_model()
 
 try:
-    collection = load_vector_db()
+    collection = load_vectordb()
 except Exception as e:
     st.error(
-        "Could not load the vector collection. "
-        "Please verify that the collection name in app.py matches the collection stored in chroma_db."
+        "Could not load the vector collection. Please verify that the collection name "
+        "and chroma_db path are correct."
     )
+    st.write("Resolved CHROMA_PATH:", CHROMA_PATH)
     st.exception(e)
     st.stop()
-
 st.sidebar.success(f"Collection loaded: {collection.count()} chunks")
 st.sidebar.write(f"Embedding model: {EMBED_MODEL_NAME}")
 st.sidebar.write(f"Collection: {COLLECTION_NAME}")
