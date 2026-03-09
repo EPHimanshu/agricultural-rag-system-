@@ -6,7 +6,9 @@ from google import genai
 
 load_dotenv()
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+# DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3-flash-preview"
+
 def get_api_key():
     try:
         import streamlit as st
