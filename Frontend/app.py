@@ -1,22 +1,24 @@
 import os
 from pathlib import Path
 import streamlit as st
+import pandas as pd
 import chromadb
 from sentence_transformers import SentenceTransformer
 from llm_client import generate_grounded_answer, DEFAULT_MODEL
 
-st.set_page_config(page_title="🌾 Agricultural Knowledge Retrieval System with RAG", layout="wide")
+st.set_page_config(
+    page_title="Agricultural Knowledge Retrieval System with RAG",
+    layout="wide"
+)
 
 RUN_ID = "20260209_185402"
+COLLECTION_NAME = st.secrets.get("COLLECTION_NAME", f"agrigenius_{RUN_ID}")
 
-# Use secret if provided
-COLLECTION_NAME = st.secrets.get(
-    "COLLECTION_NAME",
-    f"agrigenius_{RUN_ID}"
-)
-# Always resolve path relative to this file
 BASE_DIR = Path(__file__).resolve().parent
-CHROMA_PATH = str(BASE_DIR / "chroma_db")
+CHUNKS_PATH = BASE_DIR / "data" / "chunks.parquet"
+CHROMA_PATH = str(BASE_DIR / "runtime_chroma_db")
+
+EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
 
 st.title("🌾 Agricultural Knowledge Retrieval System with RAG")
 st.subheader("Shruti Project")
@@ -26,28 +28,77 @@ st.write(
     "the agricultural knowledge base and generates a grounded answer using Gemini."
 )
 
-@st.cache_resource
-def load_model():
-    return SentenceTransformer("all-MiniLM-L6-v2")
 
 @st.cache_resource
-def load_vectordb():
+def load_model():
+    return SentenceTransformer(EMBED_MODEL_NAME)
+
+
+@st.cache_resource
+def build_or_load_vectordb():
+    if not CHUNKS_PATH.exists():
+        raise FileNotFoundError(f"chunks.parquet not found at: {CHUNKS_PATH}")
+
+    chunks_df = pd.read_parquet(CHUNKS_PATH)
+    chunks_df["chunk_text"] = chunks_df["chunk_text"].fillna("").astype(str)
+    chunks_df = chunks_df[chunks_df["chunk_text"].str.strip() != ""].copy()
+
     client = chromadb.PersistentClient(path=CHROMA_PATH)
-    return client.get_collection(name=COLLECTION_NAME)
+
+    existing_names = [c.name for c in client.list_collections()]
+
+    if COLLECTION_NAME in existing_names:
+        collection = client.get_collection(name=COLLECTION_NAME)
+        return collection, len(chunks_df)
+
+    collection = client.create_collection(name=COLLECTION_NAME)
+
+    docs = chunks_df["chunk_text"].astype(str).tolist()
+    ids = chunks_df["chunk_id"].astype(str).tolist()
+
+    metadatas = []
+    for _, row in chunks_df.iterrows():
+        metadatas.append({
+            "source_type": str(row.get("source_type", "")),
+            "source_name": str(row.get("source_name", "")),
+            "file_name": str(row.get("file_name", "")),
+            "chunk_index_in_file": int(row.get("chunk_index_in_file", 0)),
+            "chunk_words": int(row.get("chunk_words", 0)),
+            "chunk_chars": int(row.get("chunk_chars", 0)),
+        })
+
+    model = load_model()
+    batch_size = 64
+
+    for start in range(0, len(docs), batch_size):
+        end = min(start + batch_size, len(docs))
+
+        batch_docs = docs[start:end]
+        batch_ids = ids[start:end]
+        batch_metas = metadatas[start:end]
+
+        batch_embeddings = model.encode(batch_docs, show_progress_bar=False).tolist()
+
+        collection.add(
+            ids=batch_ids,
+            documents=batch_docs,
+            metadatas=batch_metas,
+            embeddings=batch_embeddings
+        )
+
+    return collection, len(chunks_df)
+
 
 model = load_model()
 
 try:
-    collection = load_vectordb()
+    collection, chunk_count = build_or_load_vectordb()
 except Exception as e:
-    st.error(
-        "Could not load the vector collection. Please verify that the collection name "
-        "and chroma_db path are correct."
-    )
-    st.write("Resolved CHROMA_PATH:", CHROMA_PATH)
+    st.error("Could not build or load the vector database.")
     st.exception(e)
     st.stop()
-st.sidebar.success(f"Collection loaded: {collection.count()} chunks")
+
+st.sidebar.success(f"Collection ready: {chunk_count} chunks")
 st.sidebar.write(f"Embedding model: {EMBED_MODEL_NAME}")
 st.sidebar.write(f"Collection: {COLLECTION_NAME}")
 st.sidebar.write(f"LLM: {DEFAULT_MODEL}")
@@ -64,6 +115,7 @@ examples = [
     "What government support is available for farmers?",
     "What agricultural statistics are available from government sources?",
 ]
+
 st.caption("Example queries:")
 st.code("\n".join(examples), language="text")
 
