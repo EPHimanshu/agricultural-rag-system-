@@ -1,15 +1,14 @@
 import os
+import time
 from typing import List, Dict
 from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
 
-# Current Gemini docs show the Google GenAI SDK and examples using this model family.
-DEFAULT_MODEL = "gemini-3-flash-preview"
+DEFAULT_MODEL = "gemini-1.5-flash"
 
 def get_api_key():
-    # Try Streamlit secrets first for deployed app
     try:
         import streamlit as st
         if "GEMINI_API_KEY" in st.secrets:
@@ -17,15 +16,13 @@ def get_api_key():
     except Exception:
         pass
 
-    # Fallback to environment variable for local development
     return os.getenv("GEMINI_API_KEY")
 
 def get_gemini_client():
     api_key = get_api_key()
     if not api_key:
         raise ValueError(
-            "GEMINI_API_KEY not found. Add it to Streamlit secrets for deployment "
-            "or to your local .env file for local testing."
+            "GEMINI_API_KEY not found. Add it to Streamlit secrets or local .env."
         )
     return genai.Client(api_key=api_key)
 
@@ -94,13 +91,21 @@ def generate_grounded_answer(
     context = build_context(docs, metas, max_chunks=max_chunks)
     prompt = build_prompt(query, context)
 
-    response = client.models.generate_content(
-        model=model_name,
-        contents=prompt,
-    )
+    last_error = None
 
-    text = getattr(response, "text", None)
-    if text and text.strip():
-        return text.strip()
+    for attempt in range(3):
+        try:
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+            )
 
-    return "The model did not return a usable answer."
+            text = getattr(response, "text", None)
+            if text and text.strip():
+                return text.strip()
+
+        except Exception as e:
+            last_error = e
+            time.sleep(2 * (attempt + 1))
+
+    raise RuntimeError(f"Gemini request failed after retries: {last_error}")
