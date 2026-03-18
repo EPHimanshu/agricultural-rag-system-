@@ -461,6 +461,7 @@ from sentence_transformers import SentenceTransformer
 
 from llm_client import generate_grounded_answer, DEFAULT_MODEL
 
+
 # ============================================================
 # Streamlit Page Config
 # ============================================================
@@ -491,16 +492,12 @@ COLLECTION_NAME = get_setting("COLLECTION_NAME", f"agrigenius_{RUN_ID}")
 
 BASE_DIR = Path(__file__).resolve().parent
 CHUNKS_PATH = BASE_DIR / "data" / "chunks.parquet"
-
-# Adjust this only if your final deployed DB folder is different
 CHROMA_PATH = str(BASE_DIR / "runtime_chroma_db")
-
 EMBED_MODEL_NAME = get_setting("EMBED_MODEL_NAME", "all-MiniLM-L6-v2")
 
-# Leaf model paths
 MODELS_DIR = BASE_DIR / "models"
-POTATO_MODEL_PATH = MODELS_DIR / "potato_classification_model.h5"
-TOMATO_MODEL_PATH = MODELS_DIR / "tomato_classification_model.h5"
+POTATO_MODEL_PATH = MODELS_DIR / "potato_inference.keras"
+TOMATO_MODEL_PATH = MODELS_DIR / "tomato_inference.keras"
 
 POTATO_CLASSES = [
     "Potato___Early_blight",
@@ -594,69 +591,25 @@ def build_or_load_vectordb():
 
     return collection, len(chunks_df)
 
+
 @st.cache_resource
 def load_leaf_models():
     """
-    Loads the existing leaf disease models with compatibility patches
-    for legacy .h5 files saved in a different Keras/TensorFlow setup.
+    Loads cleaned inference models saved in .keras format.
     """
     if not POTATO_MODEL_PATH.exists():
-        raise FileNotFoundError(f"Potato model not found at: {POTATO_MODEL_PATH}")
+        raise FileNotFoundError(f"Potato inference model not found at: {POTATO_MODEL_PATH}")
 
     if not TOMATO_MODEL_PATH.exists():
-        raise FileNotFoundError(f"Tomato model not found at: {TOMATO_MODEL_PATH}")
+        raise FileNotFoundError(f"Tomato inference model not found at: {TOMATO_MODEL_PATH}")
 
-    def patch_dtype(kwargs):
-        dtype_cfg = kwargs.get("dtype")
-        if isinstance(dtype_cfg, dict):
-            kwargs["dtype"] = dtype_cfg.get("config", {}).get("name", "float32")
-        return kwargs
-
-    class PatchedInputLayer(tf.keras.layers.InputLayer):
-        def __init__(self, *args, **kwargs):
-            if "batch_shape" in kwargs and "batch_input_shape" not in kwargs:
-                kwargs["batch_input_shape"] = kwargs.pop("batch_shape")
-            kwargs = patch_dtype(kwargs)
-            super().__init__(*args, **kwargs)
-
-    class PatchedResizing(tf.keras.layers.Resizing):
-        def __init__(self, *args, **kwargs):
-            kwargs.pop("pad_to_aspect_ratio", None)
-            kwargs.pop("fill_mode", None)
-            kwargs.pop("fill_value", None)
-            kwargs.pop("data_format", None)
-            kwargs.pop("antialias", None)
-            kwargs = patch_dtype(kwargs)
-            super().__init__(*args, **kwargs)
-
-    class PatchedRescaling(tf.keras.layers.Rescaling):
-        def __init__(self, *args, **kwargs):
-            kwargs = patch_dtype(kwargs)
-            super().__init__(*args, **kwargs)
-
-    custom_objects = {
-        "InputLayer": PatchedInputLayer,
-        "Resizing": PatchedResizing,
-        "Rescaling": PatchedRescaling,
-    }
-
-    potato_model = tf.keras.models.load_model(
-        POTATO_MODEL_PATH,
-        custom_objects=custom_objects,
-        compile=False
-    )
-
-    tomato_model = tf.keras.models.load_model(
-        TOMATO_MODEL_PATH,
-        custom_objects=custom_objects,
-        compile=False
-    )
+    potato_model = tf.keras.models.load_model(POTATO_MODEL_PATH, compile=False)
+    tomato_model = tf.keras.models.load_model(TOMATO_MODEL_PATH, compile=False)
 
     return {
         "potato": potato_model,
         "tomato": tomato_model,
     }
-
 
 
 # ============================================================
@@ -817,9 +770,8 @@ def predict_with_single_model(model, img_array, class_names, crop_name):
 
 def predict_leaf_disease(uploaded_file, models_dict):
     """
-    Since the current system has separate Tomato and Potato models
-    and the user wants image-only input, we run both models and
-    choose the result with the highest confidence.
+    Runs both crop-specific models and selects the prediction with
+    the highest confidence. This supports image-only input.
     """
     display_image, img_array = preprocess_leaf_image(uploaded_file)
 
@@ -951,7 +903,7 @@ with tab2:
             if st.button("Predict Disease", key="predict_leaf_button"):
                 with st.spinner("Running leaf disease prediction..."):
                     try:
-                        display_image, best_result, all_results = predict_leaf_disease(
+                        _, best_result, all_results = predict_leaf_disease(
                             uploaded_file=uploaded_image,
                             models_dict=leaf_models
                         )
