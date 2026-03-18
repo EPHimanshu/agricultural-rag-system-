@@ -446,6 +446,8 @@
 #             )
 
 import os
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
+
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 
@@ -458,7 +460,6 @@ from PIL import Image
 from sentence_transformers import SentenceTransformer
 
 from llm_client import generate_grounded_answer, DEFAULT_MODEL
-
 
 # ============================================================
 # Streamlit Page Config
