@@ -41,7 +41,10 @@ COLLECTION_NAME = get_setting("COLLECTION_NAME", f"agrigenius_{RUN_ID}")
 BASE_DIR = Path(__file__).resolve().parent
 CHUNKS_PATH = BASE_DIR / "data" / "chunks.parquet"
 
-# Keep runtime path same as your current working project
+# Set this to whichever folder actually exists in your final project
+# Example options:
+# CHROMA_PATH = str(BASE_DIR / "runtime_chroma_db")
+# CHROMA_PATH = str(BASE_DIR / "chroma_db")
 CHROMA_PATH = str(BASE_DIR / "runtime_chroma_db")
 
 EMBED_MODEL_NAME = get_setting("EMBED_MODEL_NAME", "all-MiniLM-L6-v2")
@@ -102,7 +105,7 @@ def build_or_load_vectordb():
     """
     Loads the existing collection if available.
     If not available, builds it from chunks.parquet.
-    This preserves your current implementation behavior.
+    This preserves the existing implementation behavior.
     """
     if not CHUNKS_PATH.exists():
         raise FileNotFoundError(f"chunks.parquet not found at: {CHUNKS_PATH}")
@@ -113,7 +116,8 @@ def build_or_load_vectordb():
 
     client = chromadb.PersistentClient(path=CHROMA_PATH)
 
-    existing_names = [c.name for c in client.list_collections()]
+    collections = client.list_collections()
+    existing_names = [c.name if hasattr(c, "name") else str(c) for c in collections]
 
     if COLLECTION_NAME in existing_names:
         collection = client.get_collection(name=COLLECTION_NAME)
@@ -185,10 +189,10 @@ def retrieve_documents(
     )
 
     return {
-        "docs": results["documents"][0],
-        "metas": results["metadatas"][0],
-        "distances": results["distances"][0],
-        "ids": results["ids"][0],
+        "docs": results.get("documents", [[]])[0],
+        "metas": results.get("metadatas", [[]])[0],
+        "distances": results.get("distances", [[]])[0],
+        "ids": results.get("ids", [[]])[0],
     }
 
 
@@ -211,8 +215,8 @@ def run_rag_pipeline(
     distances = retrieved["distances"]
     ids = retrieved["ids"]
 
-    answer = None
-    error_message = None
+    answer: Optional[str] = None
+    error_message: Optional[str] = None
 
     if docs:
         try:
@@ -224,6 +228,7 @@ def run_rag_pipeline(
             )
         except Exception as e:
             error_message = f"LLM generation failed: {e}"
+            answer = "The system retrieved relevant evidence, but grounded answer generation failed."
     else:
         answer = "No relevant documents were retrieved for this query."
 
@@ -271,7 +276,7 @@ def render_retrieved_evidence(
         except Exception:
             similarity = None
 
-        title = f"Result {i+1}"
+        title = f"Result {i + 1}"
         if distance_value is not None:
             try:
                 title += f" | Distance: {float(distance_value):.4f}"
