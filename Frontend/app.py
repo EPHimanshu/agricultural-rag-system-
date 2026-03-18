@@ -444,6 +444,8 @@
 #                 distances=result["distances"],
 #                 ids=result["ids"]
 #             )
+
+
 import os
 os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
@@ -883,12 +885,12 @@ except Exception as e:
     st.exception(e)
     st.stop()
 
-leaf_models_error = None
-leaf_models = None
-try:
-    leaf_models = load_leaf_models()
-except Exception as e:
-    leaf_models_error = str(e)
+# leaf_models_error = None
+# leaf_models = None
+# try:
+#     leaf_models = load_leaf_models()
+# except Exception as e:
+#     leaf_models_error = str(e)
 
 
 # ============================================================
@@ -960,45 +962,44 @@ with tab2:
         "This tab does not use RAG."
     )
 
-    if leaf_models_error:
-        st.error(f"Leaf models could not be loaded: {leaf_models_error}")
+    uploaded_image = st.file_uploader(
+        "Upload leaf image",
+        type=["jpg", "jpeg", "png"],
+        key="leaf_image_upload"
+    )
+
+    if uploaded_image is not None:
+        st.image(uploaded_image, caption="Uploaded Leaf Image", use_column_width=True)
+
+        if st.button("Predict Disease", key="predict_leaf_button"):
+            with st.spinner("Loading leaf models and running prediction..."):
+                try:
+                    leaf_models = load_leaf_models()
+
+                    _, best_result, all_results = predict_leaf_disease(
+                        uploaded_file=uploaded_image,
+                        models_dict=leaf_models
+                    )
+
+                    st.subheader("Prediction Result")
+                    st.success(
+                        f"Predicted Class: {format_prediction_label(best_result['predicted_class'])}"
+                    )
+                    st.info(f"Predicted Crop: {best_result['crop']}")
+                    st.info(f"Confidence: {best_result['confidence']}%")
+
+                    st.subheader("Model-wise Confidence Comparison")
+                    comparison_rows = []
+                    for item in all_results:
+                        comparison_rows.append({
+                            "Model": item["crop"],
+                            "Predicted Class": format_prediction_label(item["predicted_class"]),
+                            "Confidence (%)": item["confidence"]
+                        })
+
+                    st.dataframe(pd.DataFrame(comparison_rows), use_container_width=True)
+
+                except Exception as e:
+                    st.error(f"Leaf models could not be loaded or prediction failed: {e}")
     else:
-        uploaded_image = st.file_uploader(
-            "Upload leaf image",
-            type=["jpg", "jpeg", "png"],
-            key="leaf_image_upload"
-        )
-
-        if uploaded_image is not None:
-            st.image(uploaded_image, caption="Uploaded Leaf Image", use_column_width=True)
-
-            if st.button("Predict Disease", key="predict_leaf_button"):
-                with st.spinner("Running leaf disease prediction..."):
-                    try:
-                        _, best_result, all_results = predict_leaf_disease(
-                            uploaded_file=uploaded_image,
-                            models_dict=leaf_models
-                        )
-
-                        st.subheader("Prediction Result")
-                        st.success(
-                            f"Predicted Class: {format_prediction_label(best_result['predicted_class'])}"
-                        )
-                        st.info(f"Predicted Crop: {best_result['crop']}")
-                        st.info(f"Confidence: {best_result['confidence']}%")
-
-                        st.subheader("Model-wise Confidence Comparison")
-                        comparison_rows = []
-                        for item in all_results:
-                            comparison_rows.append({
-                                "Model": item["crop"],
-                                "Predicted Class": format_prediction_label(item["predicted_class"]),
-                                "Confidence (%)": item["confidence"]
-                            })
-
-                        st.dataframe(pd.DataFrame(comparison_rows), use_container_width=True)
-
-                    except Exception as e:
-                        st.error(f"Prediction failed: {e}")
-        else:
-            st.info("Upload a leaf image to run prediction.")
+        st.info("Upload a leaf image to run prediction.")
