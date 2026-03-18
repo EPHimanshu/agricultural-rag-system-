@@ -5,3 +5,6 @@ pandas==2.2.2
 numpy==1.26.4
 python-dotenv==1.0.1
 google-genai
+pyarrow
+tensorflow
+pillow
