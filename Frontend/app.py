@@ -598,7 +598,7 @@ def build_or_load_vectordb():
 def load_leaf_models():
     """
     Loads the existing leaf disease models with compatibility patches
-    for legacy .h5 files saved with a different Keras/TensorFlow setup.
+    for legacy .h5 files saved in a different Keras/TensorFlow setup.
     """
     if not POTATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Potato model not found at: {POTATO_MODEL_PATH}")
@@ -606,10 +606,19 @@ def load_leaf_models():
     if not TOMATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Tomato model not found at: {TOMATO_MODEL_PATH}")
 
+    def patch_dtype(kwargs):
+        dtype_cfg = kwargs.get("dtype")
+        if isinstance(dtype_cfg, dict):
+            # Convert serialized dtype policy dict to a simple dtype string
+            policy_name = dtype_cfg.get("config", {}).get("name", "float32")
+            kwargs["dtype"] = policy_name
+        return kwargs
+
     class PatchedInputLayer(tf.keras.layers.InputLayer):
         def __init__(self, *args, **kwargs):
             if "batch_shape" in kwargs and "batch_input_shape" not in kwargs:
                 kwargs["batch_input_shape"] = kwargs.pop("batch_shape")
+            kwargs = patch_dtype(kwargs)
             super().__init__(*args, **kwargs)
 
     class PatchedResizing(tf.keras.layers.Resizing):
@@ -619,12 +628,12 @@ def load_leaf_models():
             kwargs.pop("fill_value", None)
             kwargs.pop("data_format", None)
             kwargs.pop("antialias", None)
+            kwargs = patch_dtype(kwargs)
             super().__init__(*args, **kwargs)
 
     custom_objects = {
         "InputLayer": PatchedInputLayer,
         "Resizing": PatchedResizing,
-        "DTypePolicy": tf.keras.DTypePolicy,
     }
 
     potato_model = tf.keras.models.load_model(
