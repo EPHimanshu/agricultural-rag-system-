@@ -594,12 +594,11 @@ def build_or_load_vectordb():
 
     return collection, len(chunks_df)
 
-
 @st.cache_resource
 def load_leaf_models():
     """
-    Loads the existing leaf disease models with a compatibility patch
-    for older .h5 files that serialize InputLayer using 'batch_shape'.
+    Loads the existing leaf disease models with compatibility patches
+    for legacy .h5 files saved with older Keras/TensorFlow configs.
     """
     if not POTATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Potato model not found at: {POTATO_MODEL_PATH}")
@@ -613,7 +612,19 @@ def load_leaf_models():
                 kwargs["batch_input_shape"] = kwargs.pop("batch_shape")
             super().__init__(*args, **kwargs)
 
-    custom_objects = {"InputLayer": PatchedInputLayer}
+    class PatchedResizing(tf.keras.layers.Resizing):
+        def __init__(self, *args, **kwargs):
+            # Drop unsupported legacy/newer config keys if runtime rejects them
+            kwargs.pop("pad_to_aspect_ratio", None)
+            kwargs.pop("fill_mode", None)
+            kwargs.pop("fill_value", None)
+            kwargs.pop("data_format", None)
+            super().__init__(*args, **kwargs)
+
+    custom_objects = {
+        "InputLayer": PatchedInputLayer,
+        "Resizing": PatchedResizing,
+    }
 
     potato_model = tf.keras.models.load_model(
         POTATO_MODEL_PATH,
@@ -629,7 +640,7 @@ def load_leaf_models():
 
     return {
         "potato": potato_model,
-        "tomato": tomato_model
+        "tomato": tomato_model,
     }
 
 
