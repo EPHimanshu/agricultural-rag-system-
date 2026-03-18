@@ -609,9 +609,7 @@ def load_leaf_models():
     def patch_dtype(kwargs):
         dtype_cfg = kwargs.get("dtype")
         if isinstance(dtype_cfg, dict):
-            # Convert serialized dtype policy dict to a simple dtype string
-            policy_name = dtype_cfg.get("config", {}).get("name", "float32")
-            kwargs["dtype"] = policy_name
+            kwargs["dtype"] = dtype_cfg.get("config", {}).get("name", "float32")
         return kwargs
 
     class PatchedInputLayer(tf.keras.layers.InputLayer):
@@ -631,9 +629,15 @@ def load_leaf_models():
             kwargs = patch_dtype(kwargs)
             super().__init__(*args, **kwargs)
 
+    class PatchedRescaling(tf.keras.layers.Rescaling):
+        def __init__(self, *args, **kwargs):
+            kwargs = patch_dtype(kwargs)
+            super().__init__(*args, **kwargs)
+
     custom_objects = {
         "InputLayer": PatchedInputLayer,
         "Resizing": PatchedResizing,
+        "Rescaling": PatchedRescaling,
     }
 
     potato_model = tf.keras.models.load_model(
@@ -652,6 +656,9 @@ def load_leaf_models():
         "potato": potato_model,
         "tomato": tomato_model,
     }
+
+
+
 # ============================================================
 # RAG Utility Functions
 # ============================================================
