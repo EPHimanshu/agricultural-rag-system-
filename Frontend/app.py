@@ -598,7 +598,7 @@ def build_or_load_vectordb():
 def load_leaf_models():
     """
     Loads the existing leaf disease models with compatibility patches
-    for legacy .h5 files saved with older/newer Keras-TensorFlow configs.
+    for legacy .h5 files saved with a different Keras/TensorFlow setup.
     """
     if not POTATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Potato model not found at: {POTATO_MODEL_PATH}")
@@ -614,7 +614,6 @@ def load_leaf_models():
 
     class PatchedResizing(tf.keras.layers.Resizing):
         def __init__(self, *args, **kwargs):
-            # Remove config keys not supported by the deployed runtime
             kwargs.pop("pad_to_aspect_ratio", None)
             kwargs.pop("fill_mode", None)
             kwargs.pop("fill_value", None)
@@ -625,6 +624,7 @@ def load_leaf_models():
     custom_objects = {
         "InputLayer": PatchedInputLayer,
         "Resizing": PatchedResizing,
+        "DTypePolicy": tf.keras.DTypePolicy,
     }
 
     potato_model = tf.keras.models.load_model(
