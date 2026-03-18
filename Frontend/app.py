@@ -598,8 +598,8 @@ def build_or_load_vectordb():
 @st.cache_resource
 def load_leaf_models():
     """
-    Loads the existing leaf disease models.
-    Returns a dictionary of loaded models.
+    Loads the existing leaf disease models with a compatibility patch
+    for older .h5 files that serialize InputLayer using 'batch_shape'.
     """
     if not POTATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Potato model not found at: {POTATO_MODEL_PATH}")
@@ -607,8 +607,25 @@ def load_leaf_models():
     if not TOMATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Tomato model not found at: {TOMATO_MODEL_PATH}")
 
-    potato_model = tf.keras.models.load_model(POTATO_MODEL_PATH)
-    tomato_model = tf.keras.models.load_model(TOMATO_MODEL_PATH)
+    class PatchedInputLayer(tf.keras.layers.InputLayer):
+        def __init__(self, *args, **kwargs):
+            if "batch_shape" in kwargs and "batch_input_shape" not in kwargs:
+                kwargs["batch_input_shape"] = kwargs.pop("batch_shape")
+            super().__init__(*args, **kwargs)
+
+    custom_objects = {"InputLayer": PatchedInputLayer}
+
+    potato_model = tf.keras.models.load_model(
+        POTATO_MODEL_PATH,
+        custom_objects=custom_objects,
+        compile=False
+    )
+
+    tomato_model = tf.keras.models.load_model(
+        TOMATO_MODEL_PATH,
+        custom_objects=custom_objects,
+        compile=False
+    )
 
     return {
         "potato": potato_model,
