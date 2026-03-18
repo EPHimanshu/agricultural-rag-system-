@@ -1,25 +1,85 @@
 import os
 from pathlib import Path
-import streamlit as st
+from typing import Dict, List, Any, Optional
+
 import pandas as pd
+import streamlit as st
 import chromadb
 from sentence_transformers import SentenceTransformer
+
 from llm_client import generate_grounded_answer, DEFAULT_MODEL
 
+
+# ============================================================
+# Streamlit Page Config
+# ============================================================
 st.set_page_config(
     page_title="Agricultural Knowledge Retrieval System with RAG",
+    page_icon="🌾",
     layout="wide"
 )
 
-RUN_ID = "20260209_185402"
-COLLECTION_NAME = st.secrets.get("COLLECTION_NAME", f"agrigenius_{RUN_ID}")
+
+# ============================================================
+# Safe Settings Helper
+# ============================================================
+def get_setting(name: str, default=None):
+    try:
+        if name in st.secrets:
+            return st.secrets[name]
+    except Exception:
+        pass
+    return os.getenv(name, default)
+
+
+# ============================================================
+# App Constants
+# ============================================================
+RUN_ID = get_setting("RUN_ID", "20260209_185402")
+COLLECTION_NAME = get_setting("COLLECTION_NAME", f"agrigenius_{RUN_ID}")
 
 BASE_DIR = Path(__file__).resolve().parent
 CHUNKS_PATH = BASE_DIR / "data" / "chunks.parquet"
+
+# Keep runtime path same as your current working project
 CHROMA_PATH = str(BASE_DIR / "runtime_chroma_db")
 
-EMBED_MODEL_NAME = "all-MiniLM-L6-v2"
+EMBED_MODEL_NAME = get_setting("EMBED_MODEL_NAME", "all-MiniLM-L6-v2")
 
+
+# ============================================================
+# Advisory Options
+# ============================================================
+CROP_OPTIONS = [
+    "Tomato",
+    "Potato",
+    "Brinjal",
+    "Chili",
+    "Okra",
+    "Wheat",
+    "Rice",
+    "Maize",
+    "Cotton",
+    "Mustard",
+]
+
+SYMPTOM_OPTIONS = [
+    "Yellow spots",
+    "Brown spots",
+    "White powder on leaves",
+    "Leaf curling",
+    "Leaf wilting",
+    "Dry leaf edges",
+    "Black patches",
+    "Holes in leaves",
+    "Yellowing of leaves",
+    "Stunted growth",
+]
+
+
+# ============================================================
+# App Header
+# ============================================================
 st.title("🌾 Agricultural Knowledge Retrieval System with RAG")
 st.subheader("Shruti Project")
 
@@ -29,6 +89,9 @@ st.write(
 )
 
 
+# ============================================================
+# Cached Resources
+# ============================================================
 @st.cache_resource
 def load_model():
     return SentenceTransformer(EMBED_MODEL_NAME)
@@ -36,6 +99,11 @@ def load_model():
 
 @st.cache_resource
 def build_or_load_vectordb():
+    """
+    Loads the existing collection if available.
+    If not available, builds it from chunks.parquet.
+    This preserves your current implementation behavior.
+    """
     if not CHUNKS_PATH.exists():
         raise FileNotFoundError(f"chunks.parquet not found at: {CHUNKS_PATH}")
 
@@ -89,6 +157,149 @@ def build_or_load_vectordb():
     return collection, len(chunks_df)
 
 
+# ============================================================
+# Utility Functions
+# ============================================================
+def normalize_text(value: str) -> str:
+    return " ".join(value.strip().lower().split())
+
+
+def build_leaf_advisory_query(crop: str, symptom: str) -> str:
+    crop_norm = normalize_text(crop)
+    symptom_norm = normalize_text(symptom)
+    return f"treatment and prevention for {symptom_norm} on {crop_norm} leaves"
+
+
+def retrieve_documents(
+    query: str,
+    top_k: int,
+    model,
+    collection
+) -> Dict[str, List[Any]]:
+    query_embedding = model.encode(query).tolist()
+
+    results = collection.query(
+        query_embeddings=[query_embedding],
+        n_results=top_k,
+        include=["documents", "metadatas", "distances"],
+    )
+
+    return {
+        "docs": results["documents"][0],
+        "metas": results["metadatas"][0],
+        "distances": results["distances"][0],
+        "ids": results["ids"][0],
+    }
+
+
+def run_rag_pipeline(
+    query: str,
+    top_k: int,
+    llm_context_k: int,
+    model,
+    collection
+) -> Dict[str, Any]:
+    retrieved = retrieve_documents(
+        query=query,
+        top_k=top_k,
+        model=model,
+        collection=collection
+    )
+
+    docs = retrieved["docs"]
+    metas = retrieved["metas"]
+    distances = retrieved["distances"]
+    ids = retrieved["ids"]
+
+    answer = None
+    error_message = None
+
+    if docs:
+        try:
+            answer = generate_grounded_answer(
+                query=query,
+                docs=docs,
+                metas=metas,
+                max_chunks=llm_context_k,
+            )
+        except Exception as e:
+            error_message = f"LLM generation failed: {e}"
+    else:
+        answer = "No relevant documents were retrieved for this query."
+
+    return {
+        "query": query,
+        "answer": answer,
+        "error_message": error_message,
+        "docs": docs,
+        "metas": metas,
+        "distances": distances,
+        "ids": ids,
+    }
+
+
+def render_generated_answer(answer: Optional[str], error_message: Optional[str]):
+    st.subheader("Generated Answer")
+
+    if answer:
+        st.success(answer)
+
+    if error_message:
+        st.error(error_message)
+        st.info("Retrieved evidence is still shown below.")
+
+
+def render_retrieved_evidence(
+    docs: List[str],
+    metas: List[Dict[str, Any]],
+    distances: List[Any],
+    ids: List[str]
+):
+    st.subheader("Retrieved Evidence")
+
+    if not docs:
+        st.warning("No evidence found for this query.")
+        return
+
+    for i in range(len(docs)):
+        distance_value = distances[i] if i < len(distances) else None
+        similarity = None
+
+        try:
+            if distance_value is not None:
+                similarity = 1 - float(distance_value)
+        except Exception:
+            similarity = None
+
+        title = f"Result {i+1}"
+        if distance_value is not None:
+            try:
+                title += f" | Distance: {float(distance_value):.4f}"
+            except Exception:
+                pass
+        if similarity is not None:
+            title += f" | Similarity: {similarity:.4f}"
+
+        with st.expander(title, expanded=(i == 0)):
+            meta = metas[i] if i < len(metas) and metas[i] else {}
+
+            st.write(f"**Chunk ID:** {ids[i] if i < len(ids) else 'N/A'}")
+            st.write(f"**Source Type:** {meta.get('source_type', '')}")
+            st.write(f"**Source Name:** {meta.get('source_name', '')}")
+            st.write(f"**File Name:** {meta.get('file_name', '')}")
+            st.write(f"**Chunk Index:** {meta.get('chunk_index_in_file', '')}")
+            st.write("**Retrieved Text:**")
+            st.write(docs[i])
+
+
+def render_query_preview(query: str):
+    st.subheader("Generated Advisory Query")
+    st.code(query, language="text")
+
+
+# ============================================================
+# Load Shared Resources
+# ============================================================
 model = load_model()
 
 try:
@@ -98,6 +309,10 @@ except Exception as e:
     st.exception(e)
     st.stop()
 
+
+# ============================================================
+# Sidebar
+# ============================================================
 st.sidebar.success(f"Collection ready: {chunk_count} chunks")
 st.sidebar.write(f"Embedding model: {EMBED_MODEL_NAME}")
 st.sidebar.write(f"Collection: {COLLECTION_NAME}")
@@ -106,66 +321,122 @@ st.sidebar.write(f"LLM: {DEFAULT_MODEL}")
 top_k = st.sidebar.slider("Top-K retrieval results", min_value=1, max_value=10, value=5)
 llm_context_k = st.sidebar.slider("Chunks sent to LLM", min_value=1, max_value=5, value=3)
 
-query = st.text_input("Ask an agriculture question:")
 
-examples = [
-    "What is Minimum Support Price scheme?",
-    "What irrigation schemes support farmers?",
-    "What is the purpose of PMKSY irrigation scheme?",
-    "What government support is available for farmers?",
-    "What agricultural statistics are available from government sources?",
-]
+# ============================================================
+# Tabs
+# ============================================================
+tab1, tab2 = st.tabs(["🔎 General RAG Search", "🌿 Leaf Advisory System"])
 
-st.caption("Example queries:")
-st.code("\n".join(examples), language="text")
 
-if st.button("Search"):
-    if not query.strip():
-        st.warning("Please enter a query.")
-    else:
-        with st.spinner("Retrieving evidence and generating grounded answer..."):
-            query_embedding = model.encode(query).tolist()
+# ============================================================
+# Tab 1 - Existing Search
+# ============================================================
+with tab1:
+    query = st.text_input("Ask an agriculture question:", key="general_query")
 
-            results = collection.query(
-                query_embeddings=[query_embedding],
-                n_results=top_k,
-                include=["documents", "metadatas", "distances"],
+    examples = [
+        "What is Minimum Support Price scheme?",
+        "What irrigation schemes support farmers?",
+        "What is the purpose of PMKSY irrigation scheme?",
+        "What government support is available for farmers?",
+        "What agricultural statistics are available from government sources?",
+    ]
+
+    st.caption("Example queries:")
+    st.code("\n".join(examples), language="text")
+
+    if st.button("Search", key="search_button"):
+        if not query.strip():
+            st.warning("Please enter a query.")
+        else:
+            with st.spinner("Retrieving evidence and generating grounded answer..."):
+                result = run_rag_pipeline(
+                    query=query.strip(),
+                    top_k=top_k,
+                    llm_context_k=llm_context_k,
+                    model=model,
+                    collection=collection
+                )
+
+            render_generated_answer(
+                answer=result["answer"],
+                error_message=result["error_message"]
+            )
+            render_retrieved_evidence(
+                docs=result["docs"],
+                metas=result["metas"],
+                distances=result["distances"],
+                ids=result["ids"]
             )
 
-            docs = results["documents"][0]
-            metas = results["metadatas"][0]
-            distances = results["distances"][0]
-            ids = results["ids"][0]
 
-            st.subheader("Generated Answer")
+# ============================================================
+# Tab 2 - Leaf Advisory
+# ============================================================
+with tab2:
+    st.write(
+        "Use structured crop and symptom selection to generate a grounded advisory response "
+        "using the same agricultural RAG backend."
+    )
 
-            try:
-                answer = generate_grounded_answer(
-                    query=query,
-                    docs=docs,
-                    metas=metas,
-                    max_chunks=llm_context_k,
+    left_col, right_col = st.columns([1, 1])
+
+    with left_col:
+        uploaded_image = st.file_uploader(
+            "Upload leaf image (optional for now)",
+            type=["jpg", "jpeg", "png"],
+            key="leaf_image_upload"
+        )
+
+        if uploaded_image is not None:
+            st.image(uploaded_image, caption="Uploaded Leaf Image", use_container_width=True)
+
+    with right_col:
+        st.info(
+            "The uploaded image is currently stored only for UI and future extension. "
+            "It is not used in retrieval yet. Later, you can plug in an image model here "
+            "without changing the RAG backend."
+        )
+
+    crop = st.selectbox(
+        "Select Crop",
+        options=["Select Crop"] + CROP_OPTIONS,
+        index=0,
+        key="crop_select"
+    )
+
+    symptom = st.selectbox(
+        "Select Symptom",
+        options=["Select Symptom"] + SYMPTOM_OPTIONS,
+        index=0,
+        key="symptom_select"
+    )
+
+    if st.button("Generate Advisory", key="advisory_button"):
+        if crop == "Select Crop":
+            st.warning("Please select a crop.")
+        elif symptom == "Select Symptom":
+            st.warning("Please select a symptom.")
+        else:
+            advisory_query = build_leaf_advisory_query(crop, symptom)
+            render_query_preview(advisory_query)
+
+            with st.spinner("Retrieving evidence and generating grounded advisory..."):
+                result = run_rag_pipeline(
+                    query=advisory_query,
+                    top_k=top_k,
+                    llm_context_k=llm_context_k,
+                    model=model,
+                    collection=collection
                 )
-                st.success(answer)
-            except Exception as e:
-                st.error(f"LLM generation failed: {e}")
-                st.info("Retrieved evidence is still shown below.")
 
-            st.subheader("Retrieved Evidence")
-
-            for i in range(len(docs)):
-                similarity = 1 - float(distances[i]) if distances[i] is not None else None
-                title = (
-                    f"Result {i+1}"
-                    + (f" | Distance: {float(distances[i]):.4f}" if distances[i] is not None else "")
-                    + (f" | Similarity: {similarity:.4f}" if similarity is not None else "")
-                )
-
-                with st.expander(title, expanded=(i == 0)):
-                    st.write(f"**Chunk ID:** {ids[i]}")
-                    st.write(f"**Source Type:** {metas[i].get('source_type')}")
-                    st.write(f"**Source Name:** {metas[i].get('source_name')}")
-                    st.write(f"**File Name:** {metas[i].get('file_name')}")
-                    st.write(f"**Chunk Index:** {metas[i].get('chunk_index_in_file')}")
-                    st.write("**Retrieved Text:**")
-                    st.write(docs[i])
+            render_generated_answer(
+                answer=result["answer"],
+                error_message=result["error_message"]
+            )
+            render_retrieved_evidence(
+                docs=result["docs"],
+                metas=result["metas"],
+                distances=result["distances"],
+                ids=result["ids"]
+            )
