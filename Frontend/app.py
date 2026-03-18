@@ -590,12 +590,11 @@ def build_or_load_vectordb():
 
     return collection, len(chunks_df)
 
-
 @st.cache_resource
 def load_leaf_models():
     """
     Loads legacy .h5 leaf disease models with compatibility patches
-    for preprocessing / augmentation layer deserialization.
+    for dtype policy and preprocessing / augmentation layer deserialization.
     """
     if not POTATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Potato model not found at: {POTATO_MODEL_PATH}")
@@ -660,6 +659,9 @@ def load_leaf_models():
             kwargs = patch_common_kwargs(kwargs)
             super().__init__(*args, **kwargs)
 
+    # Legacy keras uses mixed_precision.Policy instead of DTypePolicy
+    policy_cls = tf.keras.mixed_precision.Policy
+
     custom_objects = {
         "InputLayer": PatchedInputLayer,
         "Resizing": PatchedResizing,
@@ -669,19 +671,22 @@ def load_leaf_models():
         "RandomZoom": PatchedRandomZoom,
         "RandomContrast": PatchedRandomContrast,
         "RandomTranslation": PatchedRandomTranslation,
+        "DTypePolicy": policy_cls,
+        "Policy": policy_cls,
     }
 
-    potato_model = tf.keras.models.load_model(
-        POTATO_MODEL_PATH,
-        custom_objects=custom_objects,
-        compile=False
-    )
+    with tf.keras.utils.custom_object_scope(custom_objects):
+        potato_model = tf.keras.models.load_model(
+            POTATO_MODEL_PATH,
+            custom_objects=custom_objects,
+            compile=False
+        )
 
-    tomato_model = tf.keras.models.load_model(
-        TOMATO_MODEL_PATH,
-        custom_objects=custom_objects,
-        compile=False
-    )
+        tomato_model = tf.keras.models.load_model(
+            TOMATO_MODEL_PATH,
+            custom_objects=custom_objects,
+            compile=False
+        )
 
     return {
         "potato": potato_model,
