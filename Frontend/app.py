@@ -394,8 +394,7 @@ with tab2:
         )
 
         if uploaded_image is not None:
-            st.image(uploaded_image, caption="Uploaded Leaf Image", use_container_width=True)
-
+            st.image(uploaded_image, caption="Uploaded Leaf Image", use_column_width=True)
     with right_col:
         st.info(
             "The uploaded image is currently stored only for UI and future extension. "
