@@ -969,7 +969,7 @@ with tab2:
     )
 
     if uploaded_image is not None:
-        st.image(uploaded_image, caption="Uploaded Leaf Image", use_column_width=True)
+        st.image(uploaded_image, caption="Uploaded Leaf Image", width=350)
 
         if st.button("Predict Disease", key="predict_leaf_button"):
             with st.spinner("Loading leaf models and running prediction..."):
