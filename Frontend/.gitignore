@@ -6,3 +6,6 @@ __pycache__/
 frontend/.env
 frontend/__pycache__/
 backend/__pycache__/
+
+Frontend/chroma_db/
+Frontend/runtime_chroma_db/
