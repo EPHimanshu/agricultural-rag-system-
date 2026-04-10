@@ -409,17 +409,17 @@ def predict_with_single_model(model, img_array, class_names, crop_name):
     prediction = model.predict(img_array, verbose=0)
     prediction = np.array(prediction)
 
-    st.write("Raw prediction output:", prediction)
-    st.write("Raw prediction shape:", prediction.shape)
+    # st.write("Raw prediction output:", prediction)
+    # st.write("Raw prediction shape:", prediction.shape)
 
     if prediction.ndim > 1:
         prediction = prediction[0]
 
     prediction = np.array(prediction, dtype=np.float32)
 
-    st.write("Processed prediction before normalization:", prediction)
-    st.write("Max before normalization:", float(np.max(prediction)))
-    st.write("Sum before normalization:", float(np.sum(prediction)))
+    # st.write("Processed prediction before normalization:", prediction)
+    # st.write("Max before normalization:", float(np.max(prediction)))
+    # st.write("Sum before normalization:", float(np.sum(prediction)))
 
     if (
         np.max(prediction) > 1.0
@@ -429,9 +429,9 @@ def predict_with_single_model(model, img_array, class_names, crop_name):
         exp_scores = np.exp(prediction - np.max(prediction))
         prediction = exp_scores / np.sum(exp_scores)
 
-    st.write("Prediction after normalization:", prediction)
-    st.write("Max after normalization:", float(np.max(prediction)))
-    st.write("Sum after normalization:", float(np.sum(prediction)))
+    # st.write("Prediction after normalization:", prediction)
+    # st.write("Max after normalization:", float(np.max(prediction)))
+    # st.write("Sum after normalization:", float(np.sum(prediction)))
 
     predicted_index = int(np.argmax(prediction))
     confidence = float(np.max(prediction)) * 100.0
