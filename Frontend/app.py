@@ -1509,7 +1509,7 @@ TOMATO_MODEL_PATH = MODELS_DIR / "tomato_classification_model.h5"
 COTTON_MODEL_PATH = MODELS_DIR / "cotton_plant_disease_classifier.h5"
 
 # Advisory JSON
-ADVISORY_DIR = BASE_DIR / "advisory"
+ADVISORY_DIR = BASE_DIR / "Advisory"
 POTATO_TOMATO_REMEDIES_PATH = ADVISORY_DIR / "potato_tomato_remedies.json"
 COTTON_REMEDIES_PATH = ADVISORY_DIR / "cotton_remedies.json"
 
