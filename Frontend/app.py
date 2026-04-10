@@ -665,7 +665,7 @@
 #     else:
 #         st.info("Upload a cotton leaf image to run cotton disease prediction.")
 
-
+st.warning("NEW 4-TAB VERSION LOADED")
 import os
 os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
