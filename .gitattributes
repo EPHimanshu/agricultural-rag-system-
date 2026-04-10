@@ -1,0 +1,2 @@
+Frontend/models/*.h5 filter=lfs diff=lfs merge=lfs -text
+Frontend/models/*.tflite filter=lfs diff=lfs merge=lfs -text

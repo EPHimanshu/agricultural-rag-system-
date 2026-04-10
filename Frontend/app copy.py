@@ -1,3 +1,4 @@
+
 import os
 os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
@@ -51,7 +52,6 @@ EMBED_MODEL_NAME = get_setting("EMBED_MODEL_NAME", "all-MiniLM-L6-v2")
 MODELS_DIR = BASE_DIR / "models"
 POTATO_MODEL_PATH = MODELS_DIR / "potato_classification_model.h5"
 TOMATO_MODEL_PATH = MODELS_DIR / "tomato_classification_model.h5"
-COTTON_MODEL_PATH = MODELS_DIR / "cotton_plant_disease_classifier.h5"
 
 POTATO_CLASSES = [
     "Potato___Early_blight",
@@ -65,15 +65,6 @@ TOMATO_CLASSES = [
     "Tomato___healthy",
 ]
 
-COTTON_CLASSES = [
-    "Aphids",
-    "Army worm",
-    "Bacterial Blight",
-    "Healthy leaf",
-    "Powdery Mildew",
-    "Target spot",
-]
-
 
 # ============================================================
 # App Header
@@ -83,8 +74,7 @@ st.subheader("Shruti Project")
 
 st.write(
     "Ask agriculture-related questions in the RAG tab. "
-    "Use the Leaf Advisory tab for potato and tomato leaf disease prediction. "
-    "Use the Cotton Disease tab for cotton leaf disease prediction."
+    "Use the Leaf Advisory tab for direct leaf disease prediction from an uploaded image."
 )
 
 
@@ -155,7 +145,6 @@ def build_or_load_vectordb():
 
     return collection, len(chunks_df)
 
-
 @st.cache_resource
 def load_leaf_models():
     """
@@ -167,9 +156,6 @@ def load_leaf_models():
 
     if not TOMATO_MODEL_PATH.exists():
         raise FileNotFoundError(f"Tomato model not found at: {TOMATO_MODEL_PATH}")
-
-    if not COTTON_MODEL_PATH.exists():
-        raise FileNotFoundError(f"Cotton model not found at: {COTTON_MODEL_PATH}")
 
     def patch_dtype(kwargs):
         dtype_cfg = kwargs.get("dtype")
@@ -228,6 +214,7 @@ def load_leaf_models():
             kwargs = patch_common_kwargs(kwargs)
             super().__init__(*args, **kwargs)
 
+    # Legacy keras uses mixed_precision.Policy instead of DTypePolicy
     policy_cls = tf.keras.mixed_precision.Policy
 
     custom_objects = {
@@ -256,16 +243,9 @@ def load_leaf_models():
             compile=False
         )
 
-        cotton_model = tf.keras.models.load_model(
-            COTTON_MODEL_PATH,
-            custom_objects=custom_objects,
-            compile=False
-        )
-
     return {
         "potato": potato_model,
         "tomato": tomato_model,
-        "cotton": cotton_model,
     }
 
 
@@ -442,19 +422,6 @@ def predict_leaf_disease(uploaded_file, models_dict):
     return display_image, best_result, all_results
 
 
-def predict_cotton_disease(uploaded_file, models_dict):
-    display_image, img_array = preprocess_leaf_image(uploaded_file)
-
-    cotton_result = predict_with_single_model(
-        model=models_dict["cotton"],
-        img_array=img_array,
-        class_names=COTTON_CLASSES,
-        crop_name="Cotton"
-    )
-
-    return display_image, cotton_result
-
-
 def format_prediction_label(predicted_class: str) -> str:
     return predicted_class.replace("___", " - ").replace("_", " ")
 
@@ -470,6 +437,13 @@ except Exception as e:
     st.error("Could not build or load the vector database.")
     st.exception(e)
     st.stop()
+
+# leaf_models_error = None
+# leaf_models = None
+# try:
+#     leaf_models = load_leaf_models()
+# except Exception as e:
+#     leaf_models_error = str(e)
 
 
 # ============================================================
@@ -487,11 +461,7 @@ llm_context_k = st.sidebar.slider("Chunks sent to LLM", min_value=1, max_value=5
 # ============================================================
 # Tabs
 # ============================================================
-tab1, tab2, tab3 = st.tabs([
-    "🔎 General RAG Search",
-    "🌿 Leaf Advisory System",
-    "🧵 Cotton Disease Prediction"
-])
+tab1, tab2 = st.tabs(["🔎 General RAG Search", "🌿 Leaf Advisory System"])
 
 
 # ============================================================
@@ -537,11 +507,11 @@ with tab1:
 
 
 # ============================================================
-# Tab 2 - Leaf Advisory (Potato + Tomato)
+# Tab 2 - Leaf Advisory (Image Model Only)
 # ============================================================
 with tab2:
     st.write(
-        "Upload a leaf image to predict disease directly using the trained potato and tomato classification models. "
+        "Upload a leaf image to predict disease directly using the trained leaf classification models. "
         "This tab does not use RAG."
     )
 
@@ -586,53 +556,3 @@ with tab2:
                     st.error(f"Leaf models could not be loaded or prediction failed: {e}")
     else:
         st.info("Upload a leaf image to run prediction.")
-
-
-# ============================================================
-# Tab 3 - Cotton Disease Prediction
-# ============================================================
-with tab3:
-    st.write(
-        "Upload a cotton leaf image to predict disease directly using the trained cotton classification model. "
-        "This tab does not use RAG."
-    )
-
-    uploaded_cotton_image = st.file_uploader(
-        "Upload cotton leaf image",
-        type=["jpg", "jpeg", "png"],
-        key="cotton_image_upload"
-    )
-
-    if uploaded_cotton_image is not None:
-        st.image(uploaded_cotton_image, caption="Uploaded Cotton Leaf Image", width=350)
-
-        if st.button("Predict Cotton Disease", key="predict_cotton_button"):
-            with st.spinner("Loading cotton model and running prediction..."):
-                try:
-                    leaf_models = load_leaf_models()
-
-                    _, cotton_result = predict_cotton_disease(
-                        uploaded_file=uploaded_cotton_image,
-                        models_dict=leaf_models
-                    )
-
-                    st.subheader("Cotton Prediction Result")
-                    st.success(
-                        f"Predicted Class: {format_prediction_label(cotton_result['predicted_class'])}"
-                    )
-                    st.info(f"Predicted Crop: {cotton_result['crop']}")
-                    st.info(f"Confidence: {cotton_result['confidence']}%")
-
-                    comparison_rows = [{
-                        "Model": cotton_result["crop"],
-                        "Predicted Class": format_prediction_label(cotton_result["predicted_class"]),
-                        "Confidence (%)": cotton_result["confidence"]
-                    }]
-
-                    st.subheader("Prediction Summary")
-                    st.dataframe(pd.DataFrame(comparison_rows), use_container_width=True)
-
-                except Exception as e:
-                    st.error(f"Cotton model could not be loaded or prediction failed: {e}")
-    else:
-        st.info("Upload a cotton leaf image to run cotton disease prediction.")
