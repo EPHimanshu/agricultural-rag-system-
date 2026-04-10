@@ -408,6 +408,17 @@ def preprocess_leaf_image(uploaded_file, target_size=(256, 256)):
 
 def predict_with_single_model(model, img_array, class_names, crop_name):
     prediction = model.predict(img_array, verbose=0)
+    prediction = np.array(prediction[0], dtype=np.float32)
+
+    # Convert raw scores/logits to probabilities if needed
+    if (
+        np.max(prediction) > 1.0
+        or np.min(prediction) < 0.0
+        or abs(np.sum(prediction) - 1.0) > 0.05
+    ):
+        exp_scores = np.exp(prediction - np.max(prediction))
+        prediction = exp_scores / np.sum(exp_scores)
+
     predicted_index = int(np.argmax(prediction))
     confidence = float(np.max(prediction)) * 100.0
     predicted_class = class_names[predicted_index]
@@ -417,7 +428,6 @@ def predict_with_single_model(model, img_array, class_names, crop_name):
         "predicted_class": predicted_class,
         "confidence": round(confidence, 2)
     }
-
 
 def predict_leaf_disease(uploaded_file, models_dict):
     display_image, img_array = preprocess_leaf_image(uploaded_file)
