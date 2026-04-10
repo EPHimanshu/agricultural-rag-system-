@@ -443,7 +443,10 @@ def predict_leaf_disease(uploaded_file, models_dict):
 
 
 def predict_cotton_disease(uploaded_file, models_dict):
-    display_image, img_array = preprocess_leaf_image(uploaded_file)
+    display_image, img_array = preprocess_leaf_image(
+        uploaded_file,
+        target_size=(180, 180)
+    )
 
     cotton_result = predict_with_single_model(
         model=models_dict["cotton"],
