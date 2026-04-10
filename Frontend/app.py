@@ -1469,7 +1469,7 @@ st.set_page_config(
     layout="wide"
 )
 
-
+st.warning("NEW 4-TAB VERSION 2 LOADED")
 # ============================================================
 # Safe Settings Helper
 # ============================================================
