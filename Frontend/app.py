@@ -405,12 +405,22 @@ def preprocess_leaf_image(uploaded_file, target_size=(256, 256)):
     img_array = np.expand_dims(img_array, axis=0)
     return img, img_array
 
-
 def predict_with_single_model(model, img_array, class_names, crop_name):
     prediction = model.predict(img_array, verbose=0)
-    prediction = np.array(prediction[0], dtype=np.float32)
+    prediction = np.array(prediction)
 
-    # Convert raw scores/logits to probabilities if needed
+    st.write("Raw prediction output:", prediction)
+    st.write("Raw prediction shape:", prediction.shape)
+
+    if prediction.ndim > 1:
+        prediction = prediction[0]
+
+    prediction = np.array(prediction, dtype=np.float32)
+
+    st.write("Processed prediction before normalization:", prediction)
+    st.write("Max before normalization:", float(np.max(prediction)))
+    st.write("Sum before normalization:", float(np.sum(prediction)))
+
     if (
         np.max(prediction) > 1.0
         or np.min(prediction) < 0.0
@@ -418,6 +428,10 @@ def predict_with_single_model(model, img_array, class_names, crop_name):
     ):
         exp_scores = np.exp(prediction - np.max(prediction))
         prediction = exp_scores / np.sum(exp_scores)
+
+    st.write("Prediction after normalization:", prediction)
+    st.write("Max after normalization:", float(np.max(prediction)))
+    st.write("Sum after normalization:", float(np.sum(prediction)))
 
     predicted_index = int(np.argmax(prediction))
     confidence = float(np.max(prediction)) * 100.0
@@ -428,6 +442,7 @@ def predict_with_single_model(model, img_array, class_names, crop_name):
         "predicted_class": predicted_class,
         "confidence": round(confidence, 2)
     }
+
 
 def predict_leaf_disease(uploaded_file, models_dict):
     display_image, img_array = preprocess_leaf_image(uploaded_file)
