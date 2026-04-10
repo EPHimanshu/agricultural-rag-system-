@@ -711,17 +711,17 @@ def get_setting(name: str, default=None):
 # ============================================================
 # App Constants
 # ============================================================
-RUN_ID = get_setting("RUN_ID", "20260209_185402")
-
 BASE_DIR = Path(__file__).resolve().parent
 
 # General RAG
-COLLECTION_NAME = get_setting("COLLECTION_NAME", f"agrigenius_{RUN_ID}")
+GENERAL_RUN_ID = get_setting("GENERAL_RUN_ID", "20260209_185402")
+COLLECTION_NAME = get_setting("COLLECTION_NAME", f"agrigenius_{GENERAL_RUN_ID}")
 CHUNKS_PATH = BASE_DIR / "data" / "chunks.parquet"
 CHROMA_PATH = str(BASE_DIR / "chroma_db")
 
 # Cotton RAG
-COTTON_COLLECTION_NAME = get_setting("COTTON_COLLECTION_NAME", f"cotton_guide_{RUN_ID}")
+COTTON_RUN_ID = get_setting("COTTON_RUN_ID", "20260410_115756")
+COTTON_COLLECTION_NAME = get_setting("COTTON_COLLECTION_NAME", f"cotton_guide_{COTTON_RUN_ID}")
 COTTON_CHUNKS_PATH = BASE_DIR / "data" / "cotton_chunks.parquet"
 COTTON_CHROMA_PATH = str(BASE_DIR / "cotton_chroma_db")
 
