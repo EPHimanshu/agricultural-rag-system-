@@ -1619,9 +1619,11 @@ def load_embedding_model():
 @st.cache_resource
 def build_or_load_vectordb():
     """
-    Loads the existing general collection if available.
-    If loading fails, rebuilds it from chunks.parquet.
+    Load general vector DB if healthy.
+    If missing or incompatible, rebuild from chunks.parquet.
     """
+    import shutil
+
     if not CHUNKS_PATH.exists():
         raise FileNotFoundError(f"General chunks.parquet not found at: {CHUNKS_PATH}")
 
@@ -1629,57 +1631,66 @@ def build_or_load_vectordb():
     chunks_df["chunk_text"] = chunks_df["chunk_text"].fillna("").astype(str)
     chunks_df = chunks_df[chunks_df["chunk_text"].str.strip() != ""].copy()
 
-    # Try existing DB first
+    def build_fresh_db():
+        if os.path.exists(CHROMA_PATH):
+            shutil.rmtree(CHROMA_PATH)
+
+        client = chromadb.PersistentClient(path=CHROMA_PATH)
+        collection = client.create_collection(name=COLLECTION_NAME)
+
+        docs = chunks_df["chunk_text"].astype(str).tolist()
+        ids = chunks_df["chunk_id"].astype(str).tolist()
+
+        metadatas = []
+        for _, row in chunks_df.iterrows():
+            metadatas.append({
+                "source_type": str(row.get("source_type", "")),
+                "source_name": str(row.get("source_name", "")),
+                "file_name": str(row.get("file_name", "")),
+                "chunk_index_in_file": int(row.get("chunk_index_in_file", 0)),
+                "chunk_words": int(row.get("chunk_words", 0)),
+                "chunk_chars": int(row.get("chunk_chars", 0)),
+            })
+
+        model = load_embedding_model()
+        batch_size = 64
+
+        for start in range(0, len(docs), batch_size):
+            end = min(start + batch_size, len(docs))
+
+            batch_docs = docs[start:end]
+            batch_ids = ids[start:end]
+            batch_metas = metadatas[start:end]
+
+            batch_embeddings = model.encode(batch_docs, show_progress_bar=False).tolist()
+
+            collection.add(
+                ids=batch_ids,
+                documents=batch_docs,
+                metadatas=batch_metas,
+                embeddings=batch_embeddings
+            )
+
+        return collection, len(chunks_df)
+
     try:
         client = chromadb.PersistentClient(path=CHROMA_PATH)
         collection = client.get_collection(name=COLLECTION_NAME)
-        return collection, len(chunks_df)
-    except Exception:
-        pass
 
-    # If DB is corrupted/incompatible, rebuild from scratch
-    if os.path.exists(CHROMA_PATH):
-        import shutil
-        shutil.rmtree(CHROMA_PATH)
-
-    client = chromadb.PersistentClient(path=CHROMA_PATH)
-    collection = client.create_collection(name=COLLECTION_NAME)
-
-    docs = chunks_df["chunk_text"].astype(str).tolist()
-    ids = chunks_df["chunk_id"].astype(str).tolist()
-
-    metadatas = []
-    for _, row in chunks_df.iterrows():
-        metadatas.append({
-            "source_type": str(row.get("source_type", "")),
-            "source_name": str(row.get("source_name", "")),
-            "file_name": str(row.get("file_name", "")),
-            "chunk_index_in_file": int(row.get("chunk_index_in_file", 0)),
-            "chunk_words": int(row.get("chunk_words", 0)),
-            "chunk_chars": int(row.get("chunk_chars", 0)),
-        })
-
-    model = load_embedding_model()
-    batch_size = 64
-
-    for start in range(0, len(docs), batch_size):
-        end = min(start + batch_size, len(docs))
-
-        batch_docs = docs[start:end]
-        batch_ids = ids[start:end]
-        batch_metas = metadatas[start:end]
-
-        batch_embeddings = model.encode(batch_docs, show_progress_bar=False).tolist()
-
-        collection.add(
-            ids=batch_ids,
-            documents=batch_docs,
-            metadatas=batch_metas,
-            embeddings=batch_embeddings
+        # health-check query
+        test_embedding = load_embedding_model().encode("test query").tolist()
+        collection.query(
+            query_embeddings=[test_embedding],
+            n_results=1,
+            include=["documents"]
         )
 
-    return collection, len(chunks_df)
+        return collection, len(chunks_df)
 
+    except Exception:
+        return build_fresh_db()
+    
+    
 @st.cache_resource
 def load_cotton_vectordb():
     """
