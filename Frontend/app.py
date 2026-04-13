@@ -1558,11 +1558,69 @@ def load_embedding_model():
     return SentenceTransformer(EMBED_MODEL_NAME)
 
 
+# @st.cache_resource
+# def build_or_load_vectordb():
+#     """
+#     Loads the existing general collection if available.
+#     If not available, builds it from chunks.parquet.
+#     """
+#     if not CHUNKS_PATH.exists():
+#         raise FileNotFoundError(f"General chunks.parquet not found at: {CHUNKS_PATH}")
+
+#     chunks_df = pd.read_parquet(CHUNKS_PATH)
+#     chunks_df["chunk_text"] = chunks_df["chunk_text"].fillna("").astype(str)
+#     chunks_df = chunks_df[chunks_df["chunk_text"].str.strip() != ""].copy()
+
+#     client = chromadb.PersistentClient(path=CHROMA_PATH)
+
+#     collections = client.list_collections()
+#     existing_names = [c.name if hasattr(c, "name") else str(c) for c in collections]
+
+#     if COLLECTION_NAME in existing_names:
+#         collection = client.get_collection(name=COLLECTION_NAME)
+#         return collection, len(chunks_df)
+
+#     collection = client.create_collection(name=COLLECTION_NAME)
+
+#     docs = chunks_df["chunk_text"].astype(str).tolist()
+#     ids = chunks_df["chunk_id"].astype(str).tolist()
+
+#     metadatas = []
+#     for _, row in chunks_df.iterrows():
+#         metadatas.append({
+#             "source_type": str(row.get("source_type", "")),
+#             "source_name": str(row.get("source_name", "")),
+#             "file_name": str(row.get("file_name", "")),
+#             "chunk_index_in_file": int(row.get("chunk_index_in_file", 0)),
+#             "chunk_words": int(row.get("chunk_words", 0)),
+#             "chunk_chars": int(row.get("chunk_chars", 0)),
+#         })
+
+#     model = load_embedding_model()
+#     batch_size = 64
+
+#     for start in range(0, len(docs), batch_size):
+#         end = min(start + batch_size, len(docs))
+
+#         batch_docs = docs[start:end]
+#         batch_ids = ids[start:end]
+#         batch_metas = metadatas[start:end]
+
+#         batch_embeddings = model.encode(batch_docs, show_progress_bar=False).tolist()
+
+#         collection.add(
+#             ids=batch_ids,
+#             documents=batch_docs,
+#             metadatas=batch_metas,
+#             embeddings=batch_embeddings
+#         )
+
+#     return collection, len(chunks_df)
 @st.cache_resource
 def build_or_load_vectordb():
     """
     Loads the existing general collection if available.
-    If not available, builds it from chunks.parquet.
+    If loading fails, rebuilds it from chunks.parquet.
     """
     if not CHUNKS_PATH.exists():
         raise FileNotFoundError(f"General chunks.parquet not found at: {CHUNKS_PATH}")
@@ -1571,15 +1629,20 @@ def build_or_load_vectordb():
     chunks_df["chunk_text"] = chunks_df["chunk_text"].fillna("").astype(str)
     chunks_df = chunks_df[chunks_df["chunk_text"].str.strip() != ""].copy()
 
-    client = chromadb.PersistentClient(path=CHROMA_PATH)
-
-    collections = client.list_collections()
-    existing_names = [c.name if hasattr(c, "name") else str(c) for c in collections]
-
-    if COLLECTION_NAME in existing_names:
+    # Try existing DB first
+    try:
+        client = chromadb.PersistentClient(path=CHROMA_PATH)
         collection = client.get_collection(name=COLLECTION_NAME)
         return collection, len(chunks_df)
+    except Exception:
+        pass
 
+    # If DB is corrupted/incompatible, rebuild from scratch
+    if os.path.exists(CHROMA_PATH):
+        import shutil
+        shutil.rmtree(CHROMA_PATH)
+
+    client = chromadb.PersistentClient(path=CHROMA_PATH)
     collection = client.create_collection(name=COLLECTION_NAME)
 
     docs = chunks_df["chunk_text"].astype(str).tolist()
@@ -1616,7 +1679,6 @@ def build_or_load_vectordb():
         )
 
     return collection, len(chunks_df)
-
 
 @st.cache_resource
 def load_cotton_vectordb():
