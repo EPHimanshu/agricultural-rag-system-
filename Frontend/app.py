@@ -96,7 +96,7 @@ COTTON_CLASSES = [
 # App Header
 # ============================================================
 st.title("🌾 Agricultural Knowledge Retrieval System with RAG")
-
+st.subheader("By Engineer's Planet")
 
 st.write(
     "Ask agriculture-related questions in the General RAG tab. "
